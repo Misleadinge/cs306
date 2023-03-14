@@ -1,5 +1,5 @@
 # cs306
-Repo of group1(group Cockatiel) - cs306 project
+Repository of Group1-Cockatiel for CS306 Project
 
 Group: Cockatiel
 
