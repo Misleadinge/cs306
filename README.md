@@ -1,5 +1,5 @@
-# cs306
-Repository of Group1-Cockatiel for CS306 Project
+# Repository of Group1-Cockatiel for CS306 Project
+
 
 Group: Cockatiel
 
