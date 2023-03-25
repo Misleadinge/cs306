@@ -4,10 +4,10 @@
 Group: Cockatiel
 
 Group Members:
+Tolga Başak 29074 //
 Şimal Yücel 29420 //
 Ulaş Meriç 29244 //
 Arif Kemal Sarı 28999 //
-Tolga Başak 29074 //
 Emre Bülbül 28882 
 
 Project Title: Air Pollution
