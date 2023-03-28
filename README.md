@@ -17,5 +17,5 @@ We addressed a problem concerning nature and pollution. We started with location
 
 What we did: 
 To clean out our data, we dropped the columns without iso_codes. Then we decided to look only to 1990-2015 year gap, to make things easier to understand. Therefore we filtered the date column. We removed duplicates from all of our data. We also separated some of our data’s information, which was complicated to read due to commas. We also selected columns that are useful for our topic. For example, to have the fossil energy consumption data, we dropped other energy columns about other energy sources.
-<img width="660" alt="Screenshot 2023-03-14 at 20 09 45" src="https://user-images.githubusercontent.com/127803834/225084347-b92ab709-5f5b-4bb9-8632-b28b18558064.png">
+<img width="936" alt="image" src="https://user-images.githubusercontent.com/127803834/228284396-635b4015-fe01-454c-88b9-77c26caa53cf.png">
 
