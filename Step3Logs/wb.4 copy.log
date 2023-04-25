@@ -1,0 +1,267 @@
+22:19:20 [INF][      Workbench]: Starting up Workbench
+22:19:20 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: /Applications/MySQLWorkbench.app/Contents/Resources
+	plugin path: /Applications/MySQLWorkbench.app/Contents/PlugIns
+	struct path: /Applications/MySQLWorkbench.app/Contents/Resources/grt
+	module path: /Applications/MySQLWorkbench.app/Contents/PlugIns:/Applications/MySQLWorkbench.app/Contents/Resources/plugins
+	library path: /Applications/MySQLWorkbench.app/Contents/Resources/libraries
+	user data dir: /Users/tolgabasak/Library/Application Support/MySQL/Workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+22:19:20 [INF][      WBContext]: WbContext::init
+22:19:21 [INF][            WBA]: Looking for extension modules for WBA...
+22:19:21 [INF][            WBA]: 0 extension modules found
+22:19:21 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+22:19:21 [WRN][            grt]: /Users/tolgabasak/Library/Application Support/MySQL/Workbench/connections.xml:26: link 'FFA63F32-1FA9-4869-AB9A-2D5D4E5B0D1B' <object GrtObject> key=owner could not be resolved
+22:19:21 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+22:19:21 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for macOS version 8.0.32 CE build 2612062 (64 bit)
+	Configuration Directory: /Users/tolgabasak/Library/Application Support/MySQL/Workbench
+	Data Directory: /Applications/MySQLWorkbench.app/Contents/Resources
+	Cairo Version: 1.17.6
+	OS: unknown
+	CPU: 8x Apple M2 - 16.00GiB RAM
+No video adapter info available
+
+22:19:21 [INF][    WQE backend]: Found auto-save workspace /Users/tolgabasak/Library/Application Support/MySQL/Workbench/sql_workspaces/CS306host-1.autosave
+22:19:21 [INF][    WQE backend]: Found auto-save workspace /Users/tolgabasak/Library/Application Support/MySQL/Workbench/sql_workspaces/-1.autosave
+22:19:21 [INF][    WQE backend]: Found auto-save workspace /Users/tolgabasak/Library/Application Support/MySQL/Workbench/sql_workspaces/Local_instance_3306-1.autosave
+22:19:21 [INF][    WQE backend]: Found auto-save workspace /Users/tolgabasak/Library/Application Support/MySQL/Workbench/sql_workspaces/-2.autosave
+22:19:21 [WRN][         mforms]: Resource file not found: wb_tile_sakila_dark@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_tile_manage_dark@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_tile_folder@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_tile_network_dark@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_tile_plus_dark@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_tile_user_dark@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_tile_plus_dark@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_doc_sql@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_tile_number_dark@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_close@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_tile_open_dark@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_tile_more_dark@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_tile_sakila_dark@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_tile_manage_dark@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_tile_folder@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_tile_network_dark@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_tile_plus_dark@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_tile_user_dark@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_tile_plus_dark@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_doc_sql@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_tile_number_dark@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_close@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_tile_open_dark@2x.png
+22:19:21 [WRN][         mforms]: Resource file not found: wb_tile_more_dark@2x.png
+22:19:21 [WRN][       WBModule]: OS detection failed, skipping OS support check. OS string: 'unknown'
+22:19:22 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+22:19:22 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+22:19:27 [INF][SQL Editor Form]: Opened connection 'local' to MySQL Community Server - GPL version 8.0.31
+22:19:27 [WRN][         mforms]: Resource file not found: snippet_sql@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: busy_sidebar_mac@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: busy_sidebar_mac@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: busy_sidebar_mac@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: wb_perform_config@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: busy_sidebar_mac@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: editor_statement@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: editor_error@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: editor_breakpoint@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: editor_breakpoint_hit@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: editor_current_pos@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: editor_continue_on_error@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: ac_keyword@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: ac_schema@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: ac_table@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: ac_routine@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: ac_function@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: ac_view@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: ac_column@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: ac_operator@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: ac_engine@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: ac_trigger@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: ac_logfilegroup@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: ac_uservar@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: ac_sysvar@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: ac_tablespace@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: ac_event@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: ac_index@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: ac_user@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: ac_charset@2x.png
+22:19:27 [WRN][         mforms]: Resource file not found: ac_collation@2x.png
+22:21:21 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1050 Table 'locationdataset' already exists
+22:21:21 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1050 Table 'sharedeathsairpollution' already exists
+22:21:21 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1050 Table 'windcleaned' already exists
+22:21:21 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1050 Table 'co2emission' already exists
+22:21:21 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1050 Table 'fossilfuelconsumptionfinal' already exists
+22:21:21 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1050 Table 'ozonecleaned' already exists
+22:21:21 [ERR][SQL Editor Form]: Error Code: 1054. Unknown column 'locationdataset_Code' in 'field list'
+22:23:06 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+22:23:06 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+22:23:09 [ERR][SQL Editor Form]: Error 1170: BLOB/TEXT column 'Code' used in key specification without a key length
+SQL Statement:
+ALTER TABLE `CS306Project`.`locationdataset` 
+CHANGE COLUMN `Code` `Code` TEXT NOT NULL ,
+ADD PRIMARY KEY (`Code`)
+
+
+22:23:32 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+22:23:32 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+22:23:35 [ERR][SQL Editor Form]: Error 1170: BLOB/TEXT column 'Code' used in key specification without a key length
+SQL Statement:
+ALTER TABLE `CS306Project`.`locationdataset` 
+CHANGE COLUMN `Year` `Year` INT NOT NULL ,
+CHANGE COLUMN `Code` `Code` TEXT NOT NULL ,
+ADD PRIMARY KEY (`Code`, `Year`)
+
+
+22:24:07 [ERR][SQL Editor Form]: 
+22:24:15 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+22:24:15 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+22:24:19 [ERR][SQL Editor Form]: Error 1170: BLOB/TEXT column 'Code' used in key specification without a key length
+SQL Statement:
+ALTER TABLE `CS306Project`.`locationdataset` 
+CHANGE COLUMN `Year` `Year` INT NOT NULL ,
+CHANGE COLUMN `Code` `Code` TEXT NOT NULL ,
+ADD PRIMARY KEY (`Code`, `Year`)
+
+
+22:24:44 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+22:24:44 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+22:24:58 [ERR][SQL Editor Form]: Error 1170: BLOB/TEXT column 'Code' used in key specification without a key length
+SQL Statement:
+ALTER TABLE `CS306Project`.`locationdataset` 
+CHANGE COLUMN `Year` `Year` INT NOT NULL ,
+CHANGE COLUMN `Code` `Code` TEXT NOT NULL ,
+ADD PRIMARY KEY (`Year`, `Code`)
+
+
+22:25:15 [WRN][  TableEditorBE]: VARCHAR() is not a valid column type
+22:25:17 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+22:25:17 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+22:25:20 [ERR][SQL Editor Form]: Error 1170: BLOB/TEXT column 'Code' used in key specification without a key length
+SQL Statement:
+ALTER TABLE `CS306Project`.`locationdataset` 
+CHANGE COLUMN `Year` `Year` INT NOT NULL ,
+CHANGE COLUMN `Code` `Code` TEXT NOT NULL ,
+ADD PRIMARY KEY (`Year`, `Code`)
+
+
+22:25:43 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+22:25:43 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+22:25:54 [ERR][SQL Editor Form]: Error 1170: BLOB/TEXT column 'Code' used in key specification without a key length
+SQL Statement:
+ALTER TABLE `CS306Project`.`locationdataset` 
+CHANGE COLUMN `Year` `Year` INT NOT NULL ,
+CHANGE COLUMN `Code` `Code` MEDIUMTEXT NOT NULL ,
+ADD PRIMARY KEY (`Year`, `Code`)
+
+
+22:26:09 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+22:26:09 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+22:26:11 [ERR][SQL Editor Form]: Error 1170: BLOB/TEXT column 'Code' used in key specification without a key length
+SQL Statement:
+ALTER TABLE `CS306Project`.`locationdataset` 
+CHANGE COLUMN `Year` `Year` INT NOT NULL ,
+CHANGE COLUMN `Code` `Code` LONGTEXT NOT NULL ,
+ADD PRIMARY KEY (`Year`, `Code`)
+
+
+22:26:19 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+22:26:19 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+22:27:16 [ERR][SQL Editor Form]: Error 1170: BLOB/TEXT column 'Code' used in key specification without a key length
+SQL Statement:
+ALTER TABLE `CS306Project`.`locationdataset` 
+CHANGE COLUMN `Year` `Year` INT NOT NULL ,
+CHANGE COLUMN `Code` `Code` TINYTEXT NOT NULL ,
+ADD PRIMARY KEY (`Year`, `Code`)
+
+
+22:28:08 [ERR][SQL Editor Form]: 
+22:29:59 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+22:29:59 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+22:30:05 [ERR][SQL Editor Form]: Error 1170: BLOB/TEXT column 'Entity' used in key specification without a key length
+SQL Statement:
+ALTER TABLE `CS306Project`.`windcleaned` 
+CHANGE COLUMN `Entity` `Entity` TEXT NOT NULL ,
+CHANGE COLUMN `Code` `Code` VARCHAR(50) NOT NULL ,
+ADD PRIMARY KEY (`Entity`, `Code`)
+
+
+22:31:12 [ERR][SQL Editor Form]: Error Code: 1054. Unknown column 'locationdataset_Code' in 'field list'
+22:31:38 [ERR][SQL Editor Form]: Error Code: 1054. Unknown column 'locationdataset_Code' in 'field list'
+22:33:34 [ERR][SQL Editor Form]: Error Code: 1054. Unknown column 'locationdataset_Code' in 'field list'
+22:34:23 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1050 Table 'locationdataset' already exists
+22:34:23 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1050 Table 'sharedeathsairpollution' already exists
+22:34:23 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1050 Table 'windcleaned' already exists
+22:34:23 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1050 Table 'co2emission' already exists
+22:34:23 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1050 Table 'fossilfuelconsumptionfinal' already exists
+22:34:23 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1050 Table 'ozonecleaned' already exists
+22:34:43 [WRN][         mforms]: Resource file not found: db.Constraints.16x16.png
+22:34:43 [WRN][         mforms]: Resource file not found: db.Partitions.16x16.png
+22:34:43 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:34:43 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:34:54 [WRN][         mforms]: Resource file not found: db.Constraints.16x16.png
+22:34:54 [WRN][         mforms]: Resource file not found: db.Partitions.16x16.png
+22:34:54 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:34:54 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:35:06 [WRN][         mforms]: Resource file not found: db.Constraints.16x16.png
+22:35:06 [WRN][         mforms]: Resource file not found: db.Partitions.16x16.png
+22:35:06 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:35:06 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:35:26 [WRN][         mforms]: Resource file not found: db.Constraints.16x16.png
+22:35:26 [WRN][         mforms]: Resource file not found: db.Partitions.16x16.png
+22:35:26 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:35:26 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:35:34 [WRN][         mforms]: Resource file not found: db.Constraints.16x16.png
+22:35:34 [WRN][         mforms]: Resource file not found: db.Partitions.16x16.png
+22:35:34 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:35:34 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:35:42 [WRN][         mforms]: Resource file not found: db.Constraints.16x16.png
+22:35:42 [WRN][         mforms]: Resource file not found: db.Partitions.16x16.png
+22:35:42 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:35:42 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:35:50 [WRN][         mforms]: Resource file not found: db.Constraints.16x16.png
+22:35:50 [WRN][         mforms]: Resource file not found: db.Partitions.16x16.png
+22:35:50 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:35:50 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:36:02 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE `locationdataset` (
+  `Country` text,
+  `Year` int NOT NULL,
+  `Cod' at line 3
+22:38:02 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+22:38:02 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+22:38:04 [ERR][SQL Editor Form]: Error 1115: Unknown character set: 'DEFAULT'
+SQL Statement:
+ALTER TABLE `CS306Project`.`locationdataset` 
+CHANGE COLUMN `Year` `Year` INT NOT NULL ,
+CHANGE COLUMN `Code` `Code` TEXT CHARACTER SET 'DEFAULT' NOT NULL ,
+ADD PRIMARY KEY (`Code`, `Year`)
+
+
+22:38:14 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+22:38:14 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+22:38:17 [ERR][SQL Editor Form]: Error 1115: Unknown character set: 'DEFAULT'
+SQL Statement:
+ALTER TABLE `CS306Project`.`locationdataset` 
+CHANGE COLUMN `Year` `Year` INT NOT NULL ,
+CHANGE COLUMN `Code` `Code` VARCHAR(50) CHARACTER SET 'DEFAULT' NOT NULL ,
+ADD PRIMARY KEY (`Code`, `Year`)
+
+
+22:39:14 [WRN][         mforms]: Resource file not found: arrow_up@2x.png
+22:39:14 [WRN][         mforms]: Resource file not found: arrow_down@2x.png
