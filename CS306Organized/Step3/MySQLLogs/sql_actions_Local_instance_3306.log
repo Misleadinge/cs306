@@ -1,0 +1,1762 @@
+[1, 17:37:56] Apply changes to new_schema: Applying object changes ...
+[1, 17:38:00] Applying changes to new_schema...: 
+[1, 17:38:00] : Changes applied to new_schema
+[1, 17:38:03] Apply changes to new_schema: Changes applied
+[2, 17:38:44] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[2, 17:38:44] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[3, 17:38:44] SHOW DATABASES: Executing 
+[3, 17:38:44] SHOW DATABASES: OK
+[4, 17:39:00] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[4, 17:39:00] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[5, 17:39:00] SHOW TABLES FROM `new_schema` like 'locationdataset': Executing 
+[5, 17:39:00] SHOW TABLES FROM `new_schema` like 'locationdataset': OK
+[6, 17:44:07] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[6, 17:44:07] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[7, 17:44:07] SHOW DATABASES: Executing 
+[7, 17:44:07] SHOW DATABASES: OK
+[8, 17:44:11] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[8, 17:44:11] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[9, 17:44:11] SHOW TABLES FROM `new_schema` like 'locationdataset': Executing 
+[9, 17:44:11] SHOW TABLES FROM `new_schema` like 'locationdataset': OK
+[10, 17:46:31] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[10, 17:46:31] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[11, 17:46:31] SHOW DATABASES: Executing 
+[11, 17:46:31] SHOW DATABASES: OK
+[12, 17:46:34] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[12, 17:46:34] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[13, 17:46:34] SHOW TABLES FROM `new_schema` like 'co2emission': Executing 
+[13, 17:46:34] SHOW TABLES FROM `new_schema` like 'co2emission': OK
+[14, 17:49:47] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[14, 17:49:47] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[15, 17:49:47] SHOW DATABASES: Executing 
+[15, 17:49:47] SHOW DATABASES: OK
+[16, 17:49:49] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[16, 17:49:49] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[17, 17:49:49] SHOW TABLES FROM `new_schema` like 'locationdataset': Executing 
+[17, 17:49:49] SHOW TABLES FROM `new_schema` like 'locationdataset': OK
+[18, 18:04:23] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[18, 18:04:23] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[19, 18:04:23] SHOW DATABASES: Executing 
+[19, 18:04:23] SHOW DATABASES: OK
+[20, 18:04:25] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[20, 18:04:25] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[21, 18:04:25] SHOW TABLES FROM `new_schema` like 'locationdataset': Executing 
+[21, 18:04:25] SHOW TABLES FROM `new_schema` like 'locationdataset': OK
+[22, 18:04:56]  CREATE TABLE `new_schema`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` int, `gdp` bigint): Executing 
+[22, 18:04:56]  CREATE TABLE `new_schema`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` int, `gdp` bigint): OK
+[23, 18:04:56] PREPARE stmt FROM 'INSERT INTO `new_schema`.`locationdataset` (`country`,`year`,`iso_code`,`population`,`gdp`) VALUES(?,?,?,?,?)': Executing 
+[23, 18:04:56] PREPARE stmt FROM 'INSERT INTO `new_schema`.`locationdataset` (`country`,`year`,`iso_code`,`population`,`gdp`) VALUES(?,?,?,?,?)': OK
+[24, 18:05:20] DEALLOCATE PREPARE stmt: Executing 
+[24, 18:05:20] DEALLOCATE PREPARE stmt: OK
+[25, 18:06:08]  CREATE TABLE `new_schema`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` int, `gdp` bigint): Executing 
+[25, 18:06:08]  CREATE TABLE `new_schema`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` int, `gdp` bigint): Error Code: 1050
+Table 'locationdataset' already exists
+[26, 18:06:27]  CREATE TABLE `new_schema`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` int, `gdp` double): Executing 
+[26, 18:06:27]  CREATE TABLE `new_schema`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` int, `gdp` double): Error Code: 1050
+Table 'locationdataset' already exists
+[27, 18:06:54]  CREATE TABLE `new_schema`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` int, `gdp` bigint): Executing 
+[27, 18:06:54]  CREATE TABLE `new_schema`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` int, `gdp` bigint): Error Code: 1050
+Table 'locationdataset' already exists
+[28, 18:07:05] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[28, 18:07:05] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[29, 18:07:05] SHOW DATABASES: Executing 
+[29, 18:07:05] SHOW DATABASES: OK
+[30, 18:07:36] DROP DATABASE `new_schema`: Running...
+[30, 18:07:36] DROP DATABASE `new_schema`: 1 row(s) affected
+[31, 18:07:49] Apply changes to CS306Project: Applying object changes ...
+[31, 18:07:50] Applying changes to CS306Project...: 
+[31, 18:07:50] : Changes applied to CS306Project
+[31, 18:07:52] Apply changes to CS306Project: Changes applied
+[32, 18:07:59] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[32, 18:07:59] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[33, 18:07:59] SHOW DATABASES: Executing 
+[33, 18:07:59] SHOW DATABASES: OK
+[34, 18:08:01] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[34, 18:08:01] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[35, 18:08:01] SHOW TABLES FROM `CS306Project` like 'locationdataset': Executing 
+[35, 18:08:01] SHOW TABLES FROM `CS306Project` like 'locationdataset': OK
+[36, 18:08:08]  CREATE TABLE `CS306Project`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` int, `gdp` bigint): Executing 
+[36, 18:08:08]  CREATE TABLE `CS306Project`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` int, `gdp` bigint): OK
+[37, 18:08:08] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`locationdataset` (`country`,`year`,`iso_code`,`population`,`gdp`) VALUES(?,?,?,?,?)': Executing 
+[37, 18:08:08] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`locationdataset` (`country`,`year`,`iso_code`,`population`,`gdp`) VALUES(?,?,?,?,?)': OK
+[38, 18:08:43] DEALLOCATE PREPARE stmt: Executing 
+[38, 18:08:43] DEALLOCATE PREPARE stmt: OK
+[39, 18:09:18] Apply changes to CS306Project: Applying object changes ...
+[39, 18:09:18] Apply changes to CS306Project: No changes detected
+[40, 18:09:20] Apply changes to CS306Project: Applying object changes ...
+[40, 18:09:20] Apply changes to CS306Project: No changes detected
+[41, 18:09:21] Apply changes to CS306Project: Applying object changes ...
+[41, 18:09:21] Apply changes to CS306Project: No changes detected
+[42, 18:09:21] Apply changes to CS306Project: Applying object changes ...
+[42, 18:09:21] Apply changes to CS306Project: No changes detected
+[43, 18:37:19] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[43, 18:37:19] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[44, 18:37:19] SHOW DATABASES: Executing 
+[44, 18:37:19] SHOW DATABASES: OK
+[45, 18:38:10] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[45, 18:38:10] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[46, 18:38:10] SHOW DATABASES: Executing 
+[46, 18:38:10] SHOW DATABASES: OK
+[47, 18:38:14] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[47, 18:38:14] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[48, 18:38:14] SHOW TABLES FROM `CS306Project` like 'co2emission': Executing 
+[48, 18:38:14] SHOW TABLES FROM `CS306Project` like 'co2emission': OK
+[49, 18:39:50] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[49, 18:39:50] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[50, 18:39:50] SHOW DATABASES: Executing 
+[50, 18:39:50] SHOW DATABASES: OK
+[51, 18:39:51] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[51, 18:39:51] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[52, 18:39:51] SHOW TABLES FROM `CS306Project` like 'co2emission': Executing 
+[52, 18:39:51] SHOW TABLES FROM `CS306Project` like 'co2emission': OK
+[53, 18:40:02]  CREATE TABLE `CS306Project`.`co2emission` (`Entity` text, `Code` text, `Year` int, `Annual CO2 emissions` int): Executing 
+[53, 18:40:02]  CREATE TABLE `CS306Project`.`co2emission` (`Entity` text, `Code` text, `Year` int, `Annual CO2 emissions` int): OK
+[54, 18:40:02] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`co2emission` (`Entity`,`Code`,`Year`,`Annual CO2 emissions`) VALUES(?,?,?,?)': Executing 
+[54, 18:40:02] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`co2emission` (`Entity`,`Code`,`Year`,`Annual CO2 emissions`) VALUES(?,?,?,?)': OK
+[55, 18:40:26] DEALLOCATE PREPARE stmt: Executing 
+[55, 18:40:26] DEALLOCATE PREPARE stmt: OK
+[56, 18:40:45] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[56, 18:40:45] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[57, 18:40:45] SHOW DATABASES: Executing 
+[57, 18:40:45] SHOW DATABASES: OK
+[58, 18:40:47] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[58, 18:40:47] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[59, 18:40:47] SHOW TABLES FROM `CS306Project` like 'fossilfuelconsumptionfinal': Executing 
+[59, 18:40:47] SHOW TABLES FROM `CS306Project` like 'fossilfuelconsumptionfinal': OK
+[60, 18:40:54]  CREATE TABLE `CS306Project`.`fossilfuelconsumptionfinal` (`Entity` text, `Code` text, `Year` int, `Fossil fuels (TWh)` int): Executing 
+[60, 18:40:54]  CREATE TABLE `CS306Project`.`fossilfuelconsumptionfinal` (`Entity` text, `Code` text, `Year` int, `Fossil fuels (TWh)` int): OK
+[61, 18:40:54] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`fossilfuelconsumptionfinal` (`Entity`,`Code`,`Year`,`Fossil fuels (TWh)`) VALUES(?,?,?,?)': Executing 
+[61, 18:40:54] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`fossilfuelconsumptionfinal` (`Entity`,`Code`,`Year`,`Fossil fuels (TWh)`) VALUES(?,?,?,?)': OK
+[62, 18:41:03] DEALLOCATE PREPARE stmt: Executing 
+[62, 18:41:03] DEALLOCATE PREPARE stmt: OK
+[63, 18:41:25] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[63, 18:41:25] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[64, 18:41:25] SHOW DATABASES: Executing 
+[64, 18:41:25] SHOW DATABASES: OK
+[65, 18:41:27] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[65, 18:41:27] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[66, 18:41:27] SHOW TABLES FROM `CS306Project` like 'ozonecleaned': Executing 
+[66, 18:41:27] SHOW TABLES FROM `CS306Project` like 'ozonecleaned': OK
+[67, 18:41:33]  CREATE TABLE `CS306Project`.`ozonecleaned` (`Entity` text, `Code` text, `Year` int, `Ozone concentration-StateofGlobalAir` int): Executing 
+[67, 18:41:33]  CREATE TABLE `CS306Project`.`ozonecleaned` (`Entity` text, `Code` text, `Year` int, `Ozone concentration-StateofGlobalAir` int): OK
+[68, 18:41:33] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`ozonecleaned` (`Entity`,`Code`,`Year`,`Ozone concentration-StateofGlobalAir`) VALUES(?,?,?,?)': Executing 
+[68, 18:41:33] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`ozonecleaned` (`Entity`,`Code`,`Year`,`Ozone concentration-StateofGlobalAir`) VALUES(?,?,?,?)': OK
+[69, 18:41:37] DEALLOCATE PREPARE stmt: Executing 
+[69, 18:41:37] DEALLOCATE PREPARE stmt: OK
+[70, 18:41:52] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[70, 18:41:52] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[71, 18:41:52] SHOW DATABASES: Executing 
+[71, 18:41:52] SHOW DATABASES: OK
+[72, 18:41:54] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[72, 18:41:54] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[73, 18:41:54] SHOW TABLES FROM `CS306Project` like 'sharedeathsairpollution': Executing 
+[73, 18:41:54] SHOW TABLES FROM `CS306Project` like 'sharedeathsairpollution': OK
+[74, 18:42:03]  CREATE TABLE `CS306Project`.`sharedeathsairpollution` (`Entity` text, `Code` text, `Year` int, `Deaths - Cause: All causes - Risk: Air pollution - Sex: Both - Age: Age-standardized (Percent)` double): Executing 
+[74, 18:42:03]  CREATE TABLE `CS306Project`.`sharedeathsairpollution` (`Entity` text, `Code` text, `Year` int, `Deaths - Cause: All causes - Risk: Air pollution - Sex: Both - Age: Age-standardized (Percent)` double): Error Code: 1059
+Identifier name 'Deaths - Cause: All causes - Risk: Air pollution - Sex: Both - Age: Age-standardized (Percent)' is too long
+[75, 18:44:22] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[75, 18:44:22] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[76, 18:44:22] SHOW DATABASES: Executing 
+[76, 18:44:22] SHOW DATABASES: OK
+[77, 18:44:24] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[77, 18:44:24] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[78, 18:44:24] SHOW TABLES FROM `CS306Project` like 'sharedeathsairpollution': Executing 
+[78, 18:44:24] SHOW TABLES FROM `CS306Project` like 'sharedeathsairpollution': OK
+[79, 18:44:30]  CREATE TABLE `CS306Project`.`sharedeathsairpollution` (`Entity` text, `Code` text, `Year` int, `Deaths  AirP(%)` double): Executing 
+[79, 18:44:30]  CREATE TABLE `CS306Project`.`sharedeathsairpollution` (`Entity` text, `Code` text, `Year` int, `Deaths  AirP(%)` double): OK
+[80, 18:44:30] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`sharedeathsairpollution` (`Entity`,`Code`,`Year`,`Deaths  AirP(%)`) VALUES(?,?,?,?)': Executing 
+[80, 18:44:30] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`sharedeathsairpollution` (`Entity`,`Code`,`Year`,`Deaths  AirP(%)`) VALUES(?,?,?,?)': OK
+[81, 18:44:52] DEALLOCATE PREPARE stmt: Executing 
+[81, 18:44:52] DEALLOCATE PREPARE stmt: OK
+[82, 18:45:06] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[82, 18:45:06] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[83, 18:45:06] SHOW DATABASES: Executing 
+[83, 18:45:06] SHOW DATABASES: OK
+[84, 18:45:09] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[84, 18:45:09] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[85, 18:45:09] SHOW TABLES FROM `CS306Project` like 'windcleaned': Executing 
+[85, 18:45:09] SHOW TABLES FROM `CS306Project` like 'windcleaned': OK
+[86, 18:45:13] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[86, 18:45:13] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[87, 18:45:13] SHOW TABLES FROM `CS306Project` like 'windcleaned': Executing 
+[87, 18:45:13] SHOW TABLES FROM `CS306Project` like 'windcleaned': OK
+[88, 18:45:21]  CREATE TABLE `CS306Project`.`windcleaned` (`Entity` text, `Code` text, `Year` int, `Wind per capita (kWh - equivalent)` double): Executing 
+[88, 18:45:21]  CREATE TABLE `CS306Project`.`windcleaned` (`Entity` text, `Code` text, `Year` int, `Wind per capita (kWh - equivalent)` double): OK
+[89, 18:45:21] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`windcleaned` (`Entity`,`Code`,`Year`,`Wind per capita (kWh - equivalent)`) VALUES(?,?,?,?)': Executing 
+[89, 18:45:21] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`windcleaned` (`Entity`,`Code`,`Year`,`Wind per capita (kWh - equivalent)`) VALUES(?,?,?,?)': OK
+[90, 18:45:29] DEALLOCATE PREPARE stmt: Executing 
+[90, 18:45:29] DEALLOCATE PREPARE stmt: OK
+[1, 18:08:27] SELECT * FROM CS306Project.co2emission
+LIMIT 0, 1000
+: Running...
+[1, 18:08:27] SELECT * FROM CS306Project.co2emission
+LIMIT 0, 1000
+: Fetching...
+[1, 18:08:27] SELECT * FROM CS306Project.co2emission
+LIMIT 0, 1000
+: 1000 row(s) returned
+[1, 18:13:31] Apply changes to CS306: Applying object changes ...
+[1, 18:13:35] Applying changes to CS306...: 
+[1, 18:13:35] : Changes applied to CS306
+[1, 18:13:50] Apply changes to CS306: Changes applied
+[2, 18:13:51] Apply changes to CS306: Applying object changes ...
+[2, 18:13:51] Apply changes to CS306: No changes detected
+[3, 18:13:52] Apply changes to CS306: Applying object changes ...
+[3, 18:13:52] Apply changes to CS306: No changes detected
+[4, 18:14:27] Apply changes to CS306: Applying object changes ...
+[4, 18:14:27] Apply changes to CS306: No changes detected
+[5, 18:14:28] Apply changes to CS306: Applying object changes ...
+[5, 18:14:28] Apply changes to CS306: No changes detected
+[6, 18:14:28] Apply changes to CS306: Applying object changes ...
+[6, 18:14:28] Apply changes to CS306: No changes detected
+[7, 18:16:15] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Running...
+[7, 18:16:15] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): 0 row(s) affected, 1 warning(s):
+1050 Table 'locationdataset' already exists
+[8, 18:16:15] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[8, 18:16:15] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'sharedeathsairpollution' already exists
+[9, 18:16:15] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[9, 18:16:15] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'windcleaned' already exists
+[10, 18:16:15] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[10, 18:16:15] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'co2emission' already exists
+[11, 18:16:15] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[11, 18:16:15] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'fossilfuelconsumptionfinal' already exists
+[12, 18:16:15] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[12, 18:16:15] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'ozonecleaned' already exists
+[13, 18:16:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[13, 18:16:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'fossilfuelconsumptionfinal' already exists
+[1, 18:18:21] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Running...
+[1, 18:18:21] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): 0 row(s) affected, 1 warning(s):
+1050 Table 'locationdataset' already exists
+[2, 18:18:21] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[2, 18:18:21] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'sharedeathsairpollution' already exists
+[3, 18:18:21] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[3, 18:18:21] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'windcleaned' already exists
+[4, 18:18:21] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[4, 18:18:21] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'co2emission' already exists
+[5, 18:18:21] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[5, 18:18:21] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'fossilfuelconsumptionfinal' already exists
+[6, 18:18:21] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[6, 18:18:21] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'ozonecleaned' already exists
+[7, 18:18:49] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Running...
+[7, 18:18:49] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): 0 row(s) affected, 1 warning(s):
+1050 Table 'locationdataset' already exists
+[8, 18:18:49] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[8, 18:18:49] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'sharedeathsairpollution' already exists
+[9, 18:18:49] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[9, 18:18:49] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'windcleaned' already exists
+[10, 18:18:49] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[10, 18:18:49] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'co2emission' already exists
+[11, 18:18:49] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[11, 18:18:49] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'fossilfuelconsumptionfinal' already exists
+[12, 18:18:49] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[12, 18:18:49] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'ozonecleaned' already exists
+[13, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Running...
+[13, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): 0 row(s) affected, 1 warning(s):
+1050 Table 'locationdataset' already exists
+[14, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[14, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'sharedeathsairpollution' already exists
+[15, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[15, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'windcleaned' already exists
+[16, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[16, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'co2emission' already exists
+[17, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[17, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'fossilfuelconsumptionfinal' already exists
+[18, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[18, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'ozonecleaned' already exists
+[19, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Running...
+[19, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): 0 row(s) affected, 1 warning(s):
+1050 Table 'locationdataset' already exists
+[20, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[20, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'sharedeathsairpollution' already exists
+[21, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[21, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'windcleaned' already exists
+[22, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[22, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'co2emission' already exists
+[23, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[23, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'fossilfuelconsumptionfinal' already exists
+[24, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[24, 18:18:50] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'ozonecleaned' already exists
+[1, 18:19:25] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Running...
+[1, 18:19:25] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): 0 row(s) affected, 1 warning(s):
+1050 Table 'locationdataset' already exists
+[2, 18:19:25] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[2, 18:19:25] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'sharedeathsairpollution' already exists
+[3, 18:19:25] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[3, 18:19:25] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'windcleaned' already exists
+[4, 18:19:25] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[4, 18:19:25] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'co2emission' already exists
+[5, 18:19:25] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[5, 18:19:25] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'fossilfuelconsumptionfinal' already exists
+[6, 18:19:25] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[6, 18:19:25] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'ozonecleaned' already exists
+[7, 18:20:20] Apply changes to CS306ProjectScheme: Applying object changes ...
+[7, 18:20:25] Applying changes to CS306ProjectScheme...: 
+[7, 18:20:25] : Changes applied to CS306ProjectScheme
+[7, 18:20:32] Apply changes to CS306ProjectScheme: Changes applied
+[8, 18:20:50] Apply changes to CS306ProjectScheme: Applying object changes ...
+[8, 18:20:50] Apply changes to CS306ProjectScheme: No changes detected
+[9, 18:20:51] Apply changes to CS306ProjectScheme: Applying object changes ...
+[9, 18:20:51] Apply changes to CS306ProjectScheme: No changes detected
+[10, 18:20:52] Apply changes to CS306ProjectScheme: Applying object changes ...
+[10, 18:20:52] Apply changes to CS306ProjectScheme: No changes detected
+[11, 18:20:53] Apply changes to CS306ProjectScheme: Applying object changes ...
+[11, 18:20:53] Apply changes to CS306ProjectScheme: No changes detected
+[12, 18:20:59] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Running...
+[12, 18:20:59] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): 0 row(s) affected, 1 warning(s):
+1050 Table 'locationdataset' already exists
+[13, 18:20:59] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[13, 18:20:59] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'sharedeathsairpollution' already exists
+[14, 18:20:59] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[14, 18:20:59] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'windcleaned' already exists
+[15, 18:20:59] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[15, 18:20:59] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'co2emission' already exists
+[16, 18:20:59] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[16, 18:20:59] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'fossilfuelconsumptionfinal' already exists
+[17, 18:20:59] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[17, 18:20:59] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'ozonecleaned' already exists
+[18, 18:21:11] Apply changes to new_schema: Applying object changes ...
+[18, 18:21:23] Applying changes to new_schema...: 
+[18, 18:21:23] : Changes applied to new_schema
+[18, 18:21:25] Apply changes to new_schema: Changes applied
+[19, 18:21:39] Apply changes to cs306proj: Applying object changes ...
+[19, 18:21:42] Applying changes to cs306proj...: 
+[19, 18:21:42] : Changes applied to cs306proj
+[19, 18:21:45] Apply changes to cs306proj: Changes applied
+[1, 18:26:15] CREATE SCHEMA IF NOT EXISTS `b'CS306Project'`: Executing 
+[1, 18:26:15] CREATE SCHEMA IF NOT EXISTS `b'CS306Project'`: OK
+[2, 18:29:13] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Running...
+[2, 18:29:13] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): 0 row(s) affected, 1 warning(s):
+1050 Table 'locationdataset' already exists
+[3, 18:29:13] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[3, 18:29:13] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'sharedeathsairpollution' already exists
+[4, 18:29:13] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[4, 18:29:13] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'windcleaned' already exists
+[5, 18:29:13] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[5, 18:29:13] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'co2emission' already exists
+[6, 18:29:13] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[6, 18:29:13] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'fossilfuelconsumptionfinal' already exists
+[7, 18:29:13] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[7, 18:29:13] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'ozonecleaned' already exists
+[8, 18:29:43] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Running...
+[8, 18:29:43] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): 0 row(s) affected, 1 warning(s):
+1050 Table 'locationdataset' already exists
+[9, 18:29:43] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[9, 18:29:43] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'sharedeathsairpollution' already exists
+[10, 18:29:43] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[10, 18:29:43] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'windcleaned' already exists
+[11, 18:29:43] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[11, 18:29:43] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'co2emission' already exists
+[12, 18:29:43] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[12, 18:29:43] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'fossilfuelconsumptionfinal' already exists
+[13, 18:29:43] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[13, 18:29:43] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'ozonecleaned' already exists
+[1, 18:29:57] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Running...
+[1, 18:29:57] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): 0 row(s) affected, 1 warning(s):
+1050 Table 'locationdataset' already exists
+[2, 18:29:57] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[2, 18:29:57] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'sharedeathsairpollution' already exists
+[3, 18:29:57] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[3, 18:29:57] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'windcleaned' already exists
+[4, 18:29:57] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[4, 18:29:57] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'co2emission' already exists
+[5, 18:29:57] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[5, 18:29:57] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'fossilfuelconsumptionfinal' already exists
+[6, 18:29:57] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[6, 18:29:57] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'ozonecleaned' already exists
+[1, 18:44:31] Could not connect, server may not be running.: Unable to connect to localhost
+[1, 18:45:38] Could not connect, server may not be running.: Unable to connect to localhost

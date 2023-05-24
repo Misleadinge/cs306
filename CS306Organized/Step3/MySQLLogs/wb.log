@@ -1,0 +1,185 @@
+01:39:15 [INF][      Workbench]: Starting up Workbench
+01:39:15 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: /Applications/MySQLWorkbench.app/Contents/Resources
+	plugin path: /Applications/MySQLWorkbench.app/Contents/PlugIns
+	struct path: /Applications/MySQLWorkbench.app/Contents/Resources/grt
+	module path: /Applications/MySQLWorkbench.app/Contents/PlugIns:/Applications/MySQLWorkbench.app/Contents/Resources/plugins
+	library path: /Applications/MySQLWorkbench.app/Contents/Resources/libraries
+	user data dir: /Users/tolgabasak/Library/Application Support/MySQL/Workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+01:39:15 [INF][      WBContext]: WbContext::init
+01:39:15 [INF][            WBA]: Looking for extension modules for WBA...
+01:39:15 [INF][            WBA]: 0 extension modules found
+01:39:15 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+01:39:15 [WRN][            grt]: /Users/tolgabasak/Library/Application Support/MySQL/Workbench/connections.xml:26: link '75750E6F-9F3D-49BA-AF7E-30247C9A425D' <object GrtObject> key=owner could not be resolved
+01:39:15 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+01:39:15 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for macOS version 8.0.32 CE build 2612062 (64 bit)
+	Configuration Directory: /Users/tolgabasak/Library/Application Support/MySQL/Workbench
+	Data Directory: /Applications/MySQLWorkbench.app/Contents/Resources
+	Cairo Version: 1.17.6
+	OS: unknown
+	CPU: 8x Apple M2 - 16.00GiB RAM
+No video adapter info available
+
+01:39:15 [INF][    WQE backend]: Found auto-save workspace /Users/tolgabasak/Library/Application Support/MySQL/Workbench/sql_workspaces/CS306host-1.autosave
+01:39:15 [INF][    WQE backend]: Found auto-save workspace /Users/tolgabasak/Library/Application Support/MySQL/Workbench/sql_workspaces/-1.autosave
+01:39:15 [INF][    WQE backend]: Found auto-save workspace /Users/tolgabasak/Library/Application Support/MySQL/Workbench/sql_workspaces/Local_instance_3306-1.autosave
+01:39:15 [INF][    WQE backend]: Found auto-save workspace /Users/tolgabasak/Library/Application Support/MySQL/Workbench/sql_workspaces/-2.autosave
+01:39:15 [WRN][         mforms]: Resource file not found: wb_tile_sakila_dark@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_tile_manage_dark@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_tile_folder@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_tile_network_dark@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_tile_plus_dark@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_tile_user_dark@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_tile_plus_dark@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_doc_sql@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_tile_number_dark@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_close@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_tile_open_dark@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_tile_more_dark@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_tile_sakila_dark@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_tile_manage_dark@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_tile_folder@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_tile_network_dark@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_tile_plus_dark@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_tile_user_dark@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_tile_plus_dark@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_doc_sql@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_tile_number_dark@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_close@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_tile_open_dark@2x.png
+01:39:15 [WRN][         mforms]: Resource file not found: wb_tile_more_dark@2x.png
+01:39:15 [WRN][       WBModule]: OS detection failed, skipping OS support check. OS string: 'unknown'
+01:39:16 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+01:39:16 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+01:39:18 [INF][SQL Editor Form]: Opened connection 'local' to MySQL Community Server - GPL version 8.0.31
+01:39:18 [WRN][         mforms]: Resource file not found: snippet_sql@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: busy_sidebar_mac@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: busy_sidebar_mac@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: busy_sidebar_mac@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: wb_perform_config@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: busy_sidebar_mac@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: editor_statement@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: editor_error@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: editor_breakpoint@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: editor_breakpoint_hit@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: editor_current_pos@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: editor_continue_on_error@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: ac_keyword@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: ac_schema@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: ac_table@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: ac_routine@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: ac_function@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: ac_view@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: ac_column@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: ac_operator@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: ac_engine@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: ac_trigger@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: ac_logfilegroup@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: ac_uservar@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: ac_sysvar@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: ac_tablespace@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: ac_event@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: ac_index@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: ac_user@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: ac_charset@2x.png
+01:39:19 [WRN][         mforms]: Resource file not found: ac_collation@2x.png
+01:39:55 [INF][         Wizard]: Execute 'Prepare Import'
+01:39:56 [INF][         Wizard]: Starting thread for 'Import data file'
+01:41:49 [INF][         Wizard]: Execute 'Prepare Import'
+01:41:50 [INF][         Wizard]: Starting thread for 'Import data file'
+01:42:20 [INF][         Wizard]: Execute 'Prepare Import'
+01:42:20 [INF][         Wizard]: Starting thread for 'Import data file'
+01:42:52 [INF][         Wizard]: Execute 'Prepare Import'
+01:42:52 [INF][         Wizard]: Starting thread for 'Import data file'
+01:43:45 [INF][         Wizard]: Execute 'Prepare Import'
+01:43:45 [INF][         Wizard]: Starting thread for 'Import data file'
+01:44:15 [INF][         Wizard]: Execute 'Prepare Import'
+01:44:15 [INF][         Wizard]: Starting thread for 'Import data file'
+01:49:59 [WRN][         mforms]: Resource file not found: busy_sidebar_mac@2x.png
+01:49:59 [WRN][         mforms]: Resource file not found: wb_perform_config@2x.png
+01:49:59 [WRN][         mforms]: Resource file not found: busy_sidebar_mac@2x.png
+01:49:59 [WRN][         mforms]: Resource file not found: busy_sidebar_mac@2x.png
+01:50:04 [WRN][         mforms]: Resource file not found: snippet_mwb@2x.png
+01:50:04 [ERR][SQL Editor Form]: Unable to create db_mgmt_SSHConnectionRef object
+01:53:32 [ERR][SQL Editor Form]: 
+01:53:59 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+01:53:59 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+01:54:25 [ERR][SQL Editor Form]: Error 1170: BLOB/TEXT column 'Code' used in key specification without a key length
+SQL Statement:
+ALTER TABLE `CS306SchemeForLog`.`locationdatasetnew` 
+CHANGE COLUMN `country` `Country` TEXT NULL DEFAULT NULL ,
+CHANGE COLUMN `year` `Year` INT NULL DEFAULT NULL ,
+CHANGE COLUMN `iso_code` `Code` TEXT NOT NULL ,
+CHANGE COLUMN `population` `Population` BIGINT NULL DEFAULT NULL ,
+ADD PRIMARY KEY (`Code`)
+
+
+01:54:46 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+01:54:46 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+01:55:27 [ERR][SQL Editor Form]: Error 1170: BLOB/TEXT column 'Code' used in key specification without a key length
+SQL Statement:
+ALTER TABLE `CS306SchemeForLog`.`locationdatasetnew` 
+ADD PRIMARY KEY (`Code`)
+
+
+01:55:34 [WRN][  TableEditorBE]: VARCHAR() is not a valid column type
+01:55:40 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+01:55:40 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+01:55:43 [ERR][SQL Editor Form]: Error 1170: BLOB/TEXT column 'Code' used in key specification without a key length
+SQL Statement:
+ALTER TABLE `CS306SchemeForLog`.`locationdatasetnew` 
+ADD PRIMARY KEY (`Code`)
+
+
+01:55:48 [WRN][  TableEditorBE]: VARCHAR() is not a valid column type
+01:55:51 [WRN][  TableEditorBE]: VARCHAR() is not a valid column type
+01:56:00 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+01:56:00 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+01:56:34 [ERR][SQL Editor Form]: Error 1062: Duplicate entry 'AFG' for key 'locationdatasetnew.PRIMARY'
+SQL Statement:
+ALTER TABLE `CS306SchemeForLog`.`locationdatasetnew` 
+CHANGE COLUMN `Code` `Code` VARCHAR(3) NOT NULL ,
+ADD PRIMARY KEY (`Code`)
+
+
+01:56:45 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+01:56:45 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+01:56:48 [ERR][SQL Editor Form]: Error 1062: Duplicate entry '1990' for key 'locationdatasetnew.Year_UNIQUE'
+SQL Statement:
+ALTER TABLE `CS306SchemeForLog`.`locationdatasetnew` 
+CHANGE COLUMN `Code` `Code` VARCHAR(3) NOT NULL ,
+ADD PRIMARY KEY (`Code`),
+ADD UNIQUE INDEX `Year_UNIQUE` (`Year` ASC) VISIBLE
+
+
+01:56:57 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+01:56:57 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+01:57:07 [ERR][SQL Editor Form]: Error 1062: Duplicate entry '1990' for key 'locationdatasetnew.Year_UNIQUE'
+SQL Statement:
+ALTER TABLE `CS306SchemeForLog`.`locationdatasetnew` 
+CHANGE COLUMN `Code` `Code` VARCHAR(3) NULL ,
+ADD UNIQUE INDEX `Year_UNIQUE` (`Year` ASC)
+
+
+01:57:16 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+01:57:16 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+01:57:18 [ERR][SQL Editor Form]: Error 1062: Duplicate entry 'AFG' for key 'locationdatasetnew.Code_UNIQUE'
+SQL Statement:
+ALTER TABLE `CS306SchemeForLog`.`locationdatasetnew` 
+CHANGE COLUMN `Code` `Code` VARCHAR(3) NULL ,
+ADD UNIQUE INDEX `Code_UNIQUE` (`Code` ASC)
+
+
+01:57:42 [WRN][  TableEditorBE]: TEXT() is not a valid column type
+01:57:42 [WRN][  TableEditorBE]: TEXT() is not a valid column type
+01:59:14 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+01:59:15 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+01:59:16 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 

@@ -1,0 +1,120 @@
+22:40:30 [INF][      Workbench]: Starting up Workbench
+22:40:30 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: /Applications/MySQLWorkbench.app/Contents/Resources
+	plugin path: /Applications/MySQLWorkbench.app/Contents/PlugIns
+	struct path: /Applications/MySQLWorkbench.app/Contents/Resources/grt
+	module path: /Applications/MySQLWorkbench.app/Contents/PlugIns:/Applications/MySQLWorkbench.app/Contents/Resources/plugins
+	library path: /Applications/MySQLWorkbench.app/Contents/Resources/libraries
+	user data dir: /Users/tolgabasak/Library/Application Support/MySQL/Workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+22:40:30 [INF][      WBContext]: WbContext::init
+22:40:30 [INF][            WBA]: Looking for extension modules for WBA...
+22:40:30 [INF][            WBA]: 0 extension modules found
+22:40:30 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+22:40:30 [WRN][            grt]: /Users/tolgabasak/Library/Application Support/MySQL/Workbench/connections.xml:26: link '33EA2A56-74C9-4367-B84A-BEC2E82ED4BD' <object GrtObject> key=owner could not be resolved
+22:40:30 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+22:40:30 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for macOS version 8.0.32 CE build 2612062 (64 bit)
+	Configuration Directory: /Users/tolgabasak/Library/Application Support/MySQL/Workbench
+	Data Directory: /Applications/MySQLWorkbench.app/Contents/Resources
+	Cairo Version: 1.17.6
+	OS: unknown
+	CPU: 8x Apple M2 - 16.00GiB RAM
+No video adapter info available
+
+22:40:30 [INF][    WQE backend]: Found auto-save workspace /Users/tolgabasak/Library/Application Support/MySQL/Workbench/sql_workspaces/CS306host-1.autosave
+22:40:30 [INF][    WQE backend]: Found auto-save workspace /Users/tolgabasak/Library/Application Support/MySQL/Workbench/sql_workspaces/local-1.autosave
+22:40:30 [INF][    WQE backend]: Found auto-save workspace /Users/tolgabasak/Library/Application Support/MySQL/Workbench/sql_workspaces/-1.autosave
+22:40:30 [INF][    WQE backend]: Found auto-save workspace /Users/tolgabasak/Library/Application Support/MySQL/Workbench/sql_workspaces/Local_instance_3306-1.autosave
+22:40:30 [INF][    WQE backend]: Found auto-save workspace /Users/tolgabasak/Library/Application Support/MySQL/Workbench/sql_workspaces/-2.autosave
+22:40:30 [WRN][         mforms]: Resource file not found: wb_tile_sakila_dark@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_tile_manage_dark@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_tile_folder@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_tile_network_dark@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_tile_plus_dark@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_tile_user_dark@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_tile_plus_dark@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_doc_sql@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_tile_number_dark@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_close@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_tile_open_dark@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_tile_more_dark@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_tile_sakila_dark@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_tile_manage_dark@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_tile_folder@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_tile_network_dark@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_tile_plus_dark@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_tile_user_dark@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_tile_plus_dark@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_doc_sql@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_tile_number_dark@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_close@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_tile_open_dark@2x.png
+22:40:30 [WRN][         mforms]: Resource file not found: wb_tile_more_dark@2x.png
+22:40:30 [WRN][       WBModule]: OS detection failed, skipping OS support check. OS string: 'unknown'
+22:41:30 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+22:41:30 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+22:41:33 [INF][SQL Editor Form]: Opened connection 'local' to MySQL Community Server - GPL version 8.0.31
+22:41:33 [WRN][         mforms]: Resource file not found: snippet_sql@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: busy_sidebar_mac@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: busy_sidebar_mac@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: busy_sidebar_mac@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: wb_perform_config@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: busy_sidebar_mac@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: editor_statement@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: editor_error@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: editor_breakpoint@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: editor_breakpoint_hit@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: editor_current_pos@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: editor_continue_on_error@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: ac_keyword@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: ac_schema@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: ac_table@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: ac_routine@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: ac_function@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: ac_view@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: ac_column@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: ac_operator@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: ac_engine@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: ac_trigger@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: ac_logfilegroup@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: ac_uservar@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: ac_sysvar@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: ac_tablespace@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: ac_event@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: ac_index@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: ac_user@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: ac_charset@2x.png
+22:41:34 [WRN][         mforms]: Resource file not found: ac_collation@2x.png
+22:42:27 [WRN][         mforms]: Resource file not found: db.Constraints.16x16.png
+22:42:27 [WRN][         mforms]: Resource file not found: db.Partitions.16x16.png
+22:42:27 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:42:27 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+22:42:27 [ERR][sqlide_tableman_ext.py:refresh:281]: Error displaying table info for CS306Project.emissions_and_ozone: invalid literal for int() with base 10: ''
+22:43:14 [ERR][sqlide_grt.py:enbeautificate:333]: Error reformating SQL: ALTER TABLE `CS306Project`.`locationdataset` 
+CHANGE COLUMN `Year` `Year` INT NOT NULL ,
+CHANGE COLUMN `Code` `Code` TINYTEXT NOT NULL ,
+ADD PRIMARY KEY (`Year`, (`Code`, 50))
+Traceback (most recent call last):
+  File "/Applications/MySQLWorkbench.app/Contents/Resources/plugins/sqlide_grt.py", line 330, in enbeautificate
+    result = doReformatSQLStatement(statement, True)
+  File "/Applications/MySQLWorkbench.app/Contents/Resources/plugins/sqlide_grt.py", line 233, in doReformatSQLStatement
+    raise Exception("Error parsing statement: %s" % ast_list[0])
+Exception: Error parsing statement: SQL syntax error near '(`Code`, 50))'
+
+22:43:14 [ERR][sqlide_grt.py:enbeautificate:333]: Error reformating SQL: 
+Traceback (most recent call last):
+  File "/Applications/MySQLWorkbench.app/Contents/Resources/plugins/sqlide_grt.py", line 330, in enbeautificate
+    result = doReformatSQLStatement(statement, True)
+  File "/Applications/MySQLWorkbench.app/Contents/Resources/plugins/sqlide_grt.py", line 231, in doReformatSQLStatement
+    raise Exception("Error parsing statement")
+Exception: Error parsing statement
+
+22:46:31 [WRN][         mforms]: Resource file not found: arrow_up@2x.png
+22:46:31 [WRN][         mforms]: Resource file not found: arrow_down@2x.png

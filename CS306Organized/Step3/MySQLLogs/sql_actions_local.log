@@ -1,0 +1,1307 @@
+[1, 19:13:28] Could not connect, server may not be running.: Unable to connect to localhost
+[1, 19:16:10] Could not connect, server may not be running.: Unable to connect to localhost
+[1, 19:33:10] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Running...
+[1, 19:33:10] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Error Code: 1170. BLOB/TEXT column 'Code' used in key specification without a key length
+[2, 19:33:11] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Running...
+[2, 19:33:11] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Error Code: 1170. BLOB/TEXT column 'Code' used in key specification without a key length
+[3, 19:33:12] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Running...
+[3, 19:33:12] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Error Code: 1170. BLOB/TEXT column 'Code' used in key specification without a key length
+[4, 19:33:13] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Running...
+[4, 19:33:13] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Error Code: 1170. BLOB/TEXT column 'Code' used in key specification without a key length
+[5, 19:33:13] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Running...
+[5, 19:33:13] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Error Code: 1170. BLOB/TEXT column 'Code' used in key specification without a key length
+[6, 19:33:16] EXPLAIN CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Executing 
+[6, 19:33:16] EXPLAIN CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Error Code: 1064
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country' at line 1
+[7, 19:33:17] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[7, 19:33:17] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Error Code: 1170. BLOB/TEXT column 'Code' used in key specification without a key length
+[8, 19:35:47] select * from sakila
+LIMIT 0, 1000
+: Running...
+[8, 19:35:47] select * from sakila
+LIMIT 0, 1000
+: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[9, 19:35:57] select names from sakila
+LIMIT 0, 1000
+: Running...
+[9, 19:35:57] select names from sakila
+LIMIT 0, 1000
+: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[10, 19:35:58] select names from sakila
+LIMIT 0, 1000
+: Running...
+[10, 19:35:58] select names from sakila
+LIMIT 0, 1000
+: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[11, 19:36:52] CREATE SCHEMA IF NOT EXISTS `CS306Project` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci: Running...
+[11, 19:36:52] CREATE SCHEMA IF NOT EXISTS `CS306Project` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci: 1 row(s) affected, 1 warning(s):
+1007 Can't create database 'CS306Project'; database exists
+[12, 19:36:54] CREATE SCHEMA IF NOT EXISTS `CS306Project` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci: Running...
+[12, 19:36:54] CREATE SCHEMA IF NOT EXISTS `CS306Project` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci: 1 row(s) affected, 1 warning(s):
+1007 Can't create database 'CS306Project'; database exists
+[13, 19:36:54] CREATE SCHEMA IF NOT EXISTS `CS306Project` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci: Running...
+[13, 19:36:54] CREATE SCHEMA IF NOT EXISTS `CS306Project` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci: 1 row(s) affected, 1 warning(s):
+1007 Can't create database 'CS306Project'; database exists
+[14, 19:36:55] CREATE SCHEMA IF NOT EXISTS `CS306Project` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci: Running...
+[14, 19:36:55] CREATE SCHEMA IF NOT EXISTS `CS306Project` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci: 1 row(s) affected, 1 warning(s):
+1007 Can't create database 'CS306Project'; database exists
+[15, 19:36:55] CREATE SCHEMA IF NOT EXISTS `CS306Project` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci: Running...
+[15, 19:36:55] CREATE SCHEMA IF NOT EXISTS `CS306Project` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci: 1 row(s) affected, 1 warning(s):
+1007 Can't create database 'CS306Project'; database exists
+[16, 19:36:55] CREATE SCHEMA IF NOT EXISTS `CS306Project` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci: Running...
+[16, 19:36:55] CREATE SCHEMA IF NOT EXISTS `CS306Project` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci: 1 row(s) affected, 1 warning(s):
+1007 Can't create database 'CS306Project'; database exists
+[1, 00:47:55] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Running...
+[1, 00:47:55] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Error Code: 1170. BLOB/TEXT column 'Code' used in key specification without a key length
+[2, 00:47:56] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Running...
+[2, 00:47:56] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Error Code: 1170. BLOB/TEXT column 'Code' used in key specification without a key length
+[3, 00:48:26] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+    `Country` TEXT NULL DEFAULT NULL,
+    `Year` INT NULL DEFAULT NULL,
+    `Code` TEXT NOT NULL,
+    `Population` INT NULL DEFAULT NULL,
+    `GDP` BIGINT NULL DEFAULT NULL,
+    PRIMARY KEY (`Code`)
+): Running...
+[3, 00:48:26] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+    `Country` TEXT NULL DEFAULT NULL,
+    `Year` INT NULL DEFAULT NULL,
+    `Code` TEXT NOT NULL,
+    `Population` INT NULL DEFAULT NULL,
+    `GDP` BIGINT NULL DEFAULT NULL,
+    PRIMARY KEY (`Code`)
+): Error Code: 1170. BLOB/TEXT column 'Code' used in key specification without a key length
+[4, 00:48:27] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+    `Country` TEXT NULL DEFAULT NULL,
+    `Year` INT NULL DEFAULT NULL,
+    `Code` TEXT NOT NULL,
+    `Population` INT NULL DEFAULT NULL,
+    `GDP` BIGINT NULL DEFAULT NULL,
+    PRIMARY KEY (`Code`)
+): Running...
+[4, 00:48:27] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+    `Country` TEXT NULL DEFAULT NULL,
+    `Year` INT NULL DEFAULT NULL,
+    `Code` TEXT NOT NULL,
+    `Population` INT NULL DEFAULT NULL,
+    `GDP` BIGINT NULL DEFAULT NULL,
+    PRIMARY KEY (`Code`)
+): Error Code: 1170. BLOB/TEXT column 'Code' used in key specification without a key length
+[5, 00:52:20] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+    `Country` TEXT NULL DEFAULT NULL,
+    `Year` INT NULL DEFAULT NULL,
+    `Code` TEXT NOT NULL,
+    `Population` INT NULL DEFAULT NULL,
+    `GDP` BIGINT NULL DEFAULT NULL,
+    PRIMARY KEY (`Code`)
+): Running...
+[5, 00:52:20] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+    `Country` TEXT NULL DEFAULT NULL,
+    `Year` INT NULL DEFAULT NULL,
+    `Code` TEXT NOT NULL,
+    `Population` INT NULL DEFAULT NULL,
+    `GDP` BIGINT NULL DEFAULT NULL,
+    PRIMARY KEY (`Code`)
+): Error Code: 1170. BLOB/TEXT column 'Code' used in key specification without a key length
+[6, 00:53:16] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci: Running...
+[6, 00:53:16] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci: Error Code: 1170. BLOB/TEXT column 'Code' used in key specification without a key length
+[7, 00:53:17] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci: Running...
+[7, 00:53:17] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci: Error Code: 1170. BLOB/TEXT column 'Code' used in key specification without a key length
+[8, 00:53:17] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci: Running...
+[8, 00:53:17] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci: Error Code: 1170. BLOB/TEXT column 'Code' used in key specification without a key length
+[9, 00:53:18] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci: Running...
+[9, 00:53:18] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci: Error Code: 1170. BLOB/TEXT column 'Code' used in key specification without a key length
+[10, 00:53:18] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci: Running...
+[10, 00:53:18] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci: Error Code: 1170. BLOB/TEXT column 'Code' used in key specification without a key length
+[11, 00:53:57] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[11, 00:53:57] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[12, 00:53:57] SHOW DATABASES: Executing 
+[12, 00:53:57] SHOW DATABASES: OK
+[13, 00:54:19] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[13, 00:54:19] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[14, 00:54:19] SHOW TABLES FROM `CS306Project` like 'locationdataset': Executing 
+[14, 00:54:19] SHOW TABLES FROM `CS306Project` like 'locationdataset': OK
+[15, 00:54:29]  CREATE TABLE `CS306Project`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` int, `gdp` text): Executing 
+[15, 00:54:29]  CREATE TABLE `CS306Project`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` int, `gdp` text): OK
+[16, 00:54:29] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`locationdataset` (`country`,`year`,`iso_code`,`population`,`gdp`) VALUES(?,?,?,?,?)': Executing 
+[16, 00:54:29] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`locationdataset` (`country`,`year`,`iso_code`,`population`,`gdp`) VALUES(?,?,?,?,?)': OK
+[17, 00:54:45] DEALLOCATE PREPARE stmt: Executing 
+[17, 00:54:45] DEALLOCATE PREPARE stmt: OK
+[18, 01:08:27] TRUNCATE `CS306Project`.`locationdataset`: Executing 
+[18, 01:08:27] TRUNCATE `CS306Project`.`locationdataset`: OK
+[19, 01:08:49] DROP TABLE `CS306Project`.`locationdataset`: Running...
+[19, 01:08:49] DROP TABLE `CS306Project`.`locationdataset`: 0 row(s) affected
+[20, 01:09:31] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[20, 01:09:31] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[21, 01:09:31] SHOW DATABASES: Executing 
+[21, 01:09:31] SHOW DATABASES: OK
+[22, 01:09:32] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[22, 01:09:32] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[23, 01:09:32] SHOW TABLES FROM `CS306Project` like 'locationdataset': Executing 
+[23, 01:09:32] SHOW TABLES FROM `CS306Project` like 'locationdataset': OK
+[24, 01:09:47]  CREATE TABLE `CS306Project`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` bigint, `gdp` bigint): Executing 
+[24, 01:09:47]  CREATE TABLE `CS306Project`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` bigint, `gdp` bigint): OK
+[25, 01:09:47] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`locationdataset` (`country`,`year`,`iso_code`,`population`,`gdp`) VALUES(?,?,?,?,?)': Executing 
+[25, 01:09:47] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`locationdataset` (`country`,`year`,`iso_code`,`population`,`gdp`) VALUES(?,?,?,?,?)': OK
+[26, 01:09:57] DEALLOCATE PREPARE stmt: Executing 
+[26, 01:09:57] DEALLOCATE PREPARE stmt: OK
+[27, 01:10:18] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[27, 01:10:18] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[28, 01:10:18] SHOW DATABASES: Executing 
+[28, 01:10:18] SHOW DATABASES: OK
+[29, 01:10:24] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[29, 01:10:24] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[30, 01:11:01]  CREATE TABLE `CS306Project`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` double, `gdp` double): Executing 
+[30, 01:11:01]  CREATE TABLE `CS306Project`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` double, `gdp` double): Error Code: 1050
+Table 'locationdataset' already exists
+[31, 01:11:01]  DROP TABLE `CS306Project`.`locationdataset`: Executing 
+[31, 01:11:01]  DROP TABLE `CS306Project`.`locationdataset`: OK
+[32, 01:11:01]  CREATE TABLE `CS306Project`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` double, `gdp` double): Executing 
+[32, 01:11:01]  CREATE TABLE `CS306Project`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` double, `gdp` double): OK
+[33, 01:11:01] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`locationdataset` (`country`,`year`,`iso_code`,`population`,`gdp`) VALUES(?,?,?,?,?)': Executing 
+[33, 01:11:01] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`locationdataset` (`country`,`year`,`iso_code`,`population`,`gdp`) VALUES(?,?,?,?,?)': OK
+[34, 01:11:24] DEALLOCATE PREPARE stmt: Executing 
+[34, 01:11:24] DEALLOCATE PREPARE stmt: OK
+[35, 01:12:22] DROP TABLE `CS306Project`.`locationdataset`: Running...
+[35, 01:12:22] DROP TABLE `CS306Project`.`locationdataset`: 0 row(s) affected
+[36, 01:13:03] SET GLOBAL general_log = 'ON': Running...
+[36, 01:13:03] SET GLOBAL general_log = 'ON': 0 row(s) affected
+[37, 01:13:05] SET GLOBAL general_log = 'ON': Running...
+[37, 01:13:05] SET GLOBAL general_log = 'ON': 0 row(s) affected
+[38, 01:13:06] SET GLOBAL general_log = 'ON': Running...
+[38, 01:13:06] SET GLOBAL general_log = 'ON': 0 row(s) affected
+[39, 01:13:07] SET GLOBAL general_log = 'ON': Running...
+[39, 01:13:07] SET GLOBAL general_log = 'ON': 0 row(s) affected
+[40, 01:13:25] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[40, 01:13:25] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[41, 01:13:25] SHOW DATABASES: Executing 
+[41, 01:13:25] SHOW DATABASES: OK
+[42, 01:13:29] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[42, 01:13:29] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[43, 01:13:29] SHOW TABLES FROM `CS306Project` like 'locationdataset': Executing 
+[43, 01:13:29] SHOW TABLES FROM `CS306Project` like 'locationdataset': OK
+[44, 01:13:40]  CREATE TABLE `CS306Project`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` double, `gdp` bigint): Executing 
+[44, 01:13:40]  CREATE TABLE `CS306Project`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` double, `gdp` bigint): OK
+[45, 01:13:40] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`locationdataset` (`country`,`year`,`iso_code`,`population`,`gdp`) VALUES(?,?,?,?,?)': Executing 
+[45, 01:13:40] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`locationdataset` (`country`,`year`,`iso_code`,`population`,`gdp`) VALUES(?,?,?,?,?)': OK
+[46, 01:14:05] DEALLOCATE PREPARE stmt: Executing 
+[46, 01:14:05] DEALLOCATE PREPARE stmt: OK
+[47, 01:17:06] SET GLOBAL general_log = 'ON': Running...
+[47, 01:17:06] SET GLOBAL general_log = 'ON': 0 row(s) affected
+[48, 01:17:21] SET GLOBAL general_log = 'ON': Running...
+[48, 01:17:21] SET GLOBAL general_log = 'ON': 0 row(s) affected
+[49, 01:17:22] SET GLOBAL general_log = 'ON': Running...
+[49, 01:17:22] SET GLOBAL general_log = 'ON': 0 row(s) affected
+[50, 01:18:02] SET GLOBAL general_log = 'ON': Running...
+[50, 01:18:02] SET GLOBAL general_log = 'ON': 0 row(s) affected
+[51, 01:18:02] SELECT locationdataset FROM CS306PROJECT
+LIMIT 0, 1000
+: Running...
+[51, 01:18:02] SELECT locationdataset FROM CS306PROJECT
+LIMIT 0, 1000
+: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[52, 01:18:04] SET GLOBAL general_log = 'ON': Running...
+[52, 01:18:04] SET GLOBAL general_log = 'ON': 0 row(s) affected
+[53, 01:18:04] SELECT locationdataset FROM CS306PROJECT
+LIMIT 0, 1000
+: Running...
+[53, 01:18:04] SELECT locationdataset FROM CS306PROJECT
+LIMIT 0, 1000
+: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[54, 01:18:05] SET GLOBAL general_log = 'ON': Running...
+[54, 01:18:05] SET GLOBAL general_log = 'ON': 0 row(s) affected
+[55, 01:18:05] SELECT locationdataset FROM CS306PROJECT
+LIMIT 0, 1000
+: Running...
+[55, 01:18:05] SELECT locationdataset FROM CS306PROJECT
+LIMIT 0, 1000
+: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[56, 01:18:06] SET GLOBAL general_log = 'ON': Running...
+[56, 01:18:06] SET GLOBAL general_log = 'ON': 0 row(s) affected
+[57, 01:18:06] SELECT locationdataset FROM CS306PROJECT
+LIMIT 0, 1000
+: Running...
+[57, 01:18:06] SELECT locationdataset FROM CS306PROJECT
+LIMIT 0, 1000
+: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[58, 01:18:08] SET GLOBAL general_log = 'ON': Running...
+[58, 01:18:08] SET GLOBAL general_log = 'ON': 0 row(s) affected
+[59, 01:18:08] SELECT locationdataset FROM CS306PROJECT
+LIMIT 0, 1000
+: Running...
+[59, 01:18:08] SELECT locationdataset FROM CS306PROJECT
+LIMIT 0, 1000
+: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[60, 01:18:56] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[60, 01:18:56] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[61, 01:18:56] SHOW DATABASES: Executing 
+[61, 01:18:56] SHOW DATABASES: OK
+[62, 01:18:59] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[62, 01:18:59] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[63, 01:18:59] SHOW TABLES FROM `CS306Project` like 'co2emission': Executing 
+[63, 01:18:59] SHOW TABLES FROM `CS306Project` like 'co2emission': OK
+[64, 01:19:11]  CREATE TABLE `CS306Project`.`co2emission` (`Entity` text, `Code` text, `Year` bigint, `Annual CO2 emissions` bigint): Executing 
+[64, 01:19:11]  CREATE TABLE `CS306Project`.`co2emission` (`Entity` text, `Code` text, `Year` bigint, `Annual CO2 emissions` bigint): OK
+[65, 01:19:11] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`co2emission` (`Entity`,`Code`,`Year`,`Annual CO2 emissions`) VALUES(?,?,?,?)': Executing 
+[65, 01:19:11] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`co2emission` (`Entity`,`Code`,`Year`,`Annual CO2 emissions`) VALUES(?,?,?,?)': OK
+[66, 01:19:35] DEALLOCATE PREPARE stmt: Executing 
+[66, 01:19:35] DEALLOCATE PREPARE stmt: OK
+[67, 01:19:53] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[67, 01:19:53] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[68, 01:19:53] SHOW DATABASES: Executing 
+[68, 01:19:53] SHOW DATABASES: OK
+[69, 01:19:55] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[69, 01:19:55] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[70, 01:19:55] SHOW TABLES FROM `CS306Project` like 'fossilfuelconsumptionfinal': Executing 
+[70, 01:19:55] SHOW TABLES FROM `CS306Project` like 'fossilfuelconsumptionfinal': OK
+[71, 01:20:02]  CREATE TABLE `CS306Project`.`fossilfuelconsumptionfinal` (`Entity` text, `Code` text, `Year` bigint, `Fossil fuels (TWh)` bigint): Executing 
+[71, 01:20:02]  CREATE TABLE `CS306Project`.`fossilfuelconsumptionfinal` (`Entity` text, `Code` text, `Year` bigint, `Fossil fuels (TWh)` bigint): OK
+[72, 01:20:02] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`fossilfuelconsumptionfinal` (`Entity`,`Code`,`Year`,`Fossil fuels (TWh)`) VALUES(?,?,?,?)': Executing 
+[72, 01:20:02] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`fossilfuelconsumptionfinal` (`Entity`,`Code`,`Year`,`Fossil fuels (TWh)`) VALUES(?,?,?,?)': OK
+[73, 01:20:10] DEALLOCATE PREPARE stmt: Executing 
+[73, 01:20:10] DEALLOCATE PREPARE stmt: OK
+[74, 01:20:22] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[74, 01:20:22] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[75, 01:20:22] SHOW DATABASES: Executing 
+[75, 01:20:22] SHOW DATABASES: OK
+[76, 01:20:42] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[76, 01:20:42] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[77, 01:20:42] SHOW DATABASES: Executing 
+[77, 01:20:42] SHOW DATABASES: OK
+[78, 01:20:44] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[78, 01:20:44] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[79, 01:20:44] SHOW TABLES FROM `CS306Project` like 'ozonecleaned': Executing 
+[79, 01:20:44] SHOW TABLES FROM `CS306Project` like 'ozonecleaned': OK
+[80, 01:20:49]  CREATE TABLE `CS306Project`.`ozonecleaned` (`Entity` text, `Code` text, `Year` int, `Ozone concentration-StateofGlobalAir` int): Executing 
+[80, 01:20:49]  CREATE TABLE `CS306Project`.`ozonecleaned` (`Entity` text, `Code` text, `Year` int, `Ozone concentration-StateofGlobalAir` int): OK
+[81, 01:20:49] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`ozonecleaned` (`Entity`,`Code`,`Year`,`Ozone concentration-StateofGlobalAir`) VALUES(?,?,?,?)': Executing 
+[81, 01:20:49] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`ozonecleaned` (`Entity`,`Code`,`Year`,`Ozone concentration-StateofGlobalAir`) VALUES(?,?,?,?)': OK
+[82, 01:20:53] DEALLOCATE PREPARE stmt: Executing 
+[82, 01:20:53] DEALLOCATE PREPARE stmt: OK
+[83, 01:21:19] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[83, 01:21:19] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[84, 01:21:19] SHOW DATABASES: Executing 
+[84, 01:21:19] SHOW DATABASES: OK
+[85, 01:21:21] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[85, 01:21:21] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[86, 01:21:21] SHOW TABLES FROM `CS306Project` like 'sharedeathsairpollution': Executing 
+[86, 01:21:21] SHOW TABLES FROM `CS306Project` like 'sharedeathsairpollution': OK
+[87, 01:21:27]  CREATE TABLE `CS306Project`.`sharedeathsairpollution` (`Entity` text, `Code` text, `Year` int, `Deaths  AirP(%)` double): Executing 
+[87, 01:21:27]  CREATE TABLE `CS306Project`.`sharedeathsairpollution` (`Entity` text, `Code` text, `Year` int, `Deaths  AirP(%)` double): OK
+[88, 01:21:27] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`sharedeathsairpollution` (`Entity`,`Code`,`Year`,`Deaths  AirP(%)`) VALUES(?,?,?,?)': Executing 
+[88, 01:21:27] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`sharedeathsairpollution` (`Entity`,`Code`,`Year`,`Deaths  AirP(%)`) VALUES(?,?,?,?)': OK
+[89, 01:21:49] DEALLOCATE PREPARE stmt: Executing 
+[89, 01:21:49] DEALLOCATE PREPARE stmt: OK
+[90, 01:22:05] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[90, 01:22:05] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[91, 01:22:05] SHOW DATABASES: Executing 
+[91, 01:22:05] SHOW DATABASES: OK
+[92, 01:22:11] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[92, 01:22:11] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[93, 01:22:11] SHOW TABLES FROM `CS306Project` like 'windcleaned': Executing 
+[93, 01:22:11] SHOW TABLES FROM `CS306Project` like 'windcleaned': OK
+[94, 01:22:15]  CREATE TABLE `CS306Project`.`windcleaned` (`Entity` text, `Code` text, `Year` int, `Wind per capita (kWh - equivalent)` double): Executing 
+[94, 01:22:15]  CREATE TABLE `CS306Project`.`windcleaned` (`Entity` text, `Code` text, `Year` int, `Wind per capita (kWh - equivalent)` double): OK
+[95, 01:22:15] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`windcleaned` (`Entity`,`Code`,`Year`,`Wind per capita (kWh - equivalent)`) VALUES(?,?,?,?)': Executing 
+[95, 01:22:15] PREPARE stmt FROM 'INSERT INTO `CS306Project`.`windcleaned` (`Entity`,`Code`,`Year`,`Wind per capita (kWh - equivalent)`) VALUES(?,?,?,?)': OK
+[96, 01:22:23] DEALLOCATE PREPARE stmt: Executing 
+[96, 01:22:23] DEALLOCATE PREPARE stmt: OK
+[97, 01:23:07] SELECT * FROM CS306Project.locationdataset
+LIMIT 0, 1000
+: Running...
+[97, 01:23:07] SELECT * FROM CS306Project.locationdataset
+LIMIT 0, 1000
+: Fetching...
+[97, 01:23:07] SELECT * FROM CS306Project.locationdataset
+LIMIT 0, 1000
+: 1000 row(s) returned
+[1, 01:23:52] SET GLOBAL general_log = 'ON': Running...
+[1, 01:23:52] SET GLOBAL general_log = 'ON': 0 row(s) affected
+[2, 01:23:52] SELECT locationdataset FROM CS306PROJECT
+LIMIT 0, 1000
+: Running...
+[2, 01:23:52] SELECT locationdataset FROM CS306PROJECT
+LIMIT 0, 1000
+: Error Code: 1146. Table 'cs306project.cs306project' doesn't exist
+[3, 01:23:54] SET GLOBAL general_log = 'ON': Running...
+[3, 01:23:54] SET GLOBAL general_log = 'ON': 0 row(s) affected
+[4, 01:23:54] SELECT locationdataset FROM CS306PROJECT
+LIMIT 0, 1000
+: Running...
+[4, 01:23:54] SELECT locationdataset FROM CS306PROJECT
+LIMIT 0, 1000
+: Error Code: 1146. Table 'cs306project.cs306project' doesn't exist
+[5, 01:23:55] SET GLOBAL general_log = 'ON': Running...
+[5, 01:23:55] SET GLOBAL general_log = 'ON': 0 row(s) affected
+[6, 01:23:55] SELECT locationdataset FROM CS306PROJECT
+LIMIT 0, 1000
+: Running...
+[6, 01:23:55] SELECT locationdataset FROM CS306PROJECT
+LIMIT 0, 1000
+: Error Code: 1146. Table 'cs306project.cs306project' doesn't exist
+[7, 01:28:20] SET GLOBAL general_log = 'ON'
+
+CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci: Running...
+[7, 01:28:20] SET GLOBAL general_log = 'ON'
+
+CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL' at line 3
+[8, 01:28:22] SET GLOBAL general_log = 'ON'
+
+CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci: Running...
+[8, 01:28:22] SET GLOBAL general_log = 'ON'
+
+CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL' at line 3
+[9, 01:28:23] SET GLOBAL general_log = 'ON'
+
+CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci: Running...
+[9, 01:28:23] SET GLOBAL general_log = 'ON'
+
+CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL' at line 3
+[10, 01:28:23] SET GLOBAL general_log = 'ON'
+
+CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci: Running...
+[10, 01:28:23] SET GLOBAL general_log = 'ON'
+
+CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL' at line 3
+[11, 01:31:18] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Running...
+[11, 01:31:18] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): 0 row(s) affected, 1 warning(s):
+1050 Table 'locationdataset' already exists
+[12, 01:31:18] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[12, 01:31:18] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'sharedeathsairpollution' already exists
+[13, 01:31:18] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[13, 01:31:18] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'windcleaned' already exists
+[14, 01:31:18] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[14, 01:31:18] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'co2emission' already exists
+[15, 01:31:18] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[15, 01:31:18] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'fossilfuelconsumptionfinal' already exists
+[16, 01:31:18] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[16, 01:31:18] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'ozonecleaned' already exists
+[17, 01:31:19] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): Running...
+[17, 01:31:19] CREATE TABLE IF NOT EXISTS `CS306Project`.`locationdataset` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Population` INT NULL DEFAULT NULL,
+  `GDP` BIGINT NULL DEFAULT NULL,
+  PRIMARY KEY (`Code`)): 0 row(s) affected, 1 warning(s):
+1050 Table 'locationdataset' already exists
+[18, 01:31:19] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[18, 01:31:19] CREATE TABLE IF NOT EXISTS `CS306Project`.`sharedeathsairpollution` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Deaths  AirP(%)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_sharedeathsairpollution_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_sharedeathsairpollution_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'sharedeathsairpollution' already exists
+[19, 01:31:19] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[19, 01:31:19] CREATE TABLE IF NOT EXISTS `CS306Project`.`windcleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Wind per capita (kWh - equivalent)` DOUBLE NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_windcleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_windcleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'windcleaned' already exists
+[20, 01:31:19] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[20, 01:31:19] CREATE TABLE IF NOT EXISTS `CS306Project`.`co2emission` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Annual CO2 emissions` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_co2emission_locationdataset_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_co2emission_locationdataset`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'co2emission' already exists
+[21, 01:31:19] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[21, 01:31:19] CREATE TABLE IF NOT EXISTS `CS306Project`.`fossilfuelconsumptionfinal` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Fossil fuels (TWh)` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_fossilfuelconsumptionfinal_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_fossilfuelconsumptionfinal_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'fossilfuelconsumptionfinal' already exists
+[22, 01:31:19] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): Running...
+[22, 01:31:19] CREATE TABLE IF NOT EXISTS `CS306Project`.`ozonecleaned` (
+  `Country` TEXT NULL DEFAULT NULL,
+  `Code` TEXT NOT NULL,
+  `Year` INT NULL DEFAULT NULL,
+  `Ozone concentration-StateofGlobalAir` INT NULL DEFAULT NULL,
+  `locationdataset_Code` TEXT NOT NULL,
+  PRIMARY KEY (`Code`, `locationdataset_Code`),
+  INDEX `fk_ozonecleaned_locationdataset1_idx` (`locationdataset_Code` ASC) VISIBLE,
+  CONSTRAINT `fk_ozonecleaned_locationdataset1`
+    FOREIGN KEY (`locationdataset_Code`)
+    REFERENCES `CS306Project`.`locationdataset` (`Code`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION): 0 row(s) affected, 1 warning(s):
+1050 Table 'ozonecleaned' already exists
+[1, 00:55:10] Apply changes to CS306SchemeForLog: Applying object changes ...
+[1, 00:55:14] Applying changes to CS306SchemeForLog...: 
+[1, 00:55:14] : Changes applied to CS306SchemeForLog
+[1, 00:55:17] Apply changes to CS306SchemeForLog: Changes applied
+[2, 00:56:05] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[2, 00:56:05] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[3, 00:56:05] SHOW DATABASES: Executing 
+[3, 00:56:05] SHOW DATABASES: OK
+[4, 00:56:14] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[4, 00:56:14] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[5, 00:56:14] SHOW TABLES FROM `CS306SchemeForLog` like 'locationdataset': Executing 
+[5, 00:56:14] SHOW TABLES FROM `CS306SchemeForLog` like 'locationdataset': OK
+[6, 00:56:32]  CREATE TABLE `CS306SchemeForLog`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` bigint, `gdp` bigint): Executing 
+[6, 00:56:32]  CREATE TABLE `CS306SchemeForLog`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` bigint, `gdp` bigint): OK
+[7, 00:56:32] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`locationdataset` (`country`,`year`,`iso_code`,`population`,`gdp`) VALUES(?,?,?,?,?)': Executing 
+[7, 00:56:32] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`locationdataset` (`country`,`year`,`iso_code`,`population`,`gdp`) VALUES(?,?,?,?,?)': OK
+[8, 00:56:54] DEALLOCATE PREPARE stmt: Executing 
+[8, 00:56:54] DEALLOCATE PREPARE stmt: OK
+[9, 00:58:51] DROP TABLE `CS306SchemeForLog`.`locationdataset`: Running...
+[9, 00:58:51] DROP TABLE `CS306SchemeForLog`.`locationdataset`: 0 row(s) affected
+[1, 01:08:46] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[1, 01:08:46] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[2, 01:08:46] SHOW DATABASES: Executing 
+[2, 01:08:46] SHOW DATABASES: OK
+[3, 01:08:49] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[3, 01:08:49] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[4, 01:08:49] SHOW TABLES FROM `CS306SchemeForLog` like 'locationdataset': Executing 
+[4, 01:08:49] SHOW TABLES FROM `CS306SchemeForLog` like 'locationdataset': OK
+[5, 01:09:10]  CREATE TABLE `CS306SchemeForLog`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` double, `gdp` double): Executing 
+[5, 01:09:10]  CREATE TABLE `CS306SchemeForLog`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` double, `gdp` double): OK
+[6, 01:09:10] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`locationdataset` (`country`,`year`,`iso_code`,`population`,`gdp`) VALUES(?,?,?,?,?)': Executing 
+[6, 01:09:10] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`locationdataset` (`country`,`year`,`iso_code`,`population`,`gdp`) VALUES(?,?,?,?,?)': OK
+[7, 01:09:34] DEALLOCATE PREPARE stmt: Executing 
+[7, 01:09:34] DEALLOCATE PREPARE stmt: OK
+[1, 01:17:52] DROP TABLE `CS306SchemeForLog`.`locationdataset`: Running...
+[1, 01:17:52] DROP TABLE `CS306SchemeForLog`.`locationdataset`: 0 row(s) affected
+[2, 01:18:10] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[2, 01:18:10] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[3, 01:18:10] SHOW DATABASES: Executing 
+[3, 01:18:10] SHOW DATABASES: OK
+[4, 01:18:15] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[4, 01:18:15] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[5, 01:18:15] SHOW TABLES FROM `CS306SchemeForLog` like 'locationdataset': Executing 
+[5, 01:18:15] SHOW TABLES FROM `CS306SchemeForLog` like 'locationdataset': OK
+[6, 01:18:25]  CREATE TABLE `CS306SchemeForLog`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` int, `gdp` double): Executing 
+[6, 01:18:25]  CREATE TABLE `CS306SchemeForLog`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` int, `gdp` double): OK
+[7, 01:18:25] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`locationdataset` (`country`,`year`,`iso_code`,`population`,`gdp`) VALUES(?,?,?,?,?)': Executing 
+[7, 01:18:25] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`locationdataset` (`country`,`year`,`iso_code`,`population`,`gdp`) VALUES(?,?,?,?,?)': OK
+[8, 01:18:39] DEALLOCATE PREPARE stmt: Executing 
+[8, 01:18:39] DEALLOCATE PREPARE stmt: OK
+[9, 01:18:50] DROP TABLE `CS306SchemeForLog`.`locationdataset`: Running...
+[9, 01:18:50] DROP TABLE `CS306SchemeForLog`.`locationdataset`: 0 row(s) affected
+[10, 01:20:47] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[10, 01:20:47] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[11, 01:20:47] SHOW DATABASES: Executing 
+[11, 01:20:47] SHOW DATABASES: OK
+[12, 01:20:48] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[12, 01:20:48] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[13, 01:20:48] SHOW TABLES FROM `CS306SchemeForLog` like 'locationdataset': Executing 
+[13, 01:20:48] SHOW TABLES FROM `CS306SchemeForLog` like 'locationdataset': OK
+[14, 01:21:01]  CREATE TABLE `CS306SchemeForLog`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` int): Executing 
+[14, 01:21:01]  CREATE TABLE `CS306SchemeForLog`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` int): OK
+[15, 01:21:01] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`locationdataset` (`country`,`year`,`iso_code`,`population`) VALUES(?,?,?,?)': Executing 
+[15, 01:21:01] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`locationdataset` (`country`,`year`,`iso_code`,`population`) VALUES(?,?,?,?)': OK
+[16, 01:21:25] DEALLOCATE PREPARE stmt: Executing 
+[16, 01:21:25] DEALLOCATE PREPARE stmt: OK
+[17, 01:21:48] DROP TABLE `CS306SchemeForLog`.`locationdataset`: Running...
+[17, 01:21:48] DROP TABLE `CS306SchemeForLog`.`locationdataset`: 0 row(s) affected
+[1, 01:22:21] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[1, 01:22:21] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[2, 01:22:21] SHOW DATABASES: Executing 
+[2, 01:22:21] SHOW DATABASES: OK
+[3, 01:22:24] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[3, 01:22:24] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[4, 01:22:24] SHOW TABLES FROM `CS306SchemeForLog` like 'locationdataset': Executing 
+[4, 01:22:24] SHOW TABLES FROM `CS306SchemeForLog` like 'locationdataset': OK
+[5, 01:22:29]  CREATE TABLE `CS306SchemeForLog`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` int): Executing 
+[5, 01:22:29]  CREATE TABLE `CS306SchemeForLog`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` int): OK
+[6, 01:22:29] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`locationdataset` (`country`,`year`,`iso_code`,`population`) VALUES(?,?,?,?)': Executing 
+[6, 01:22:29] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`locationdataset` (`country`,`year`,`iso_code`,`population`) VALUES(?,?,?,?)': OK
+[7, 01:22:53] DEALLOCATE PREPARE stmt: Executing 
+[7, 01:22:53] DEALLOCATE PREPARE stmt: OK
+[8, 01:24:28] DROP TABLE `CS306SchemeForLog`.`locationdataset`: Running...
+[8, 01:24:28] DROP TABLE `CS306SchemeForLog`.`locationdataset`: 0 row(s) affected
+[9, 01:24:44] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[9, 01:24:44] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[10, 01:24:44] SHOW DATABASES: Executing 
+[10, 01:24:44] SHOW DATABASES: OK
+[11, 01:24:44] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[11, 01:24:44] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[12, 01:24:44] SHOW TABLES FROM `CS306SchemeForLog` like 'locationdataset': Executing 
+[12, 01:24:44] SHOW TABLES FROM `CS306SchemeForLog` like 'locationdataset': OK
+[13, 01:24:51]  CREATE TABLE `CS306SchemeForLog`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` double): Executing 
+[13, 01:24:51]  CREATE TABLE `CS306SchemeForLog`.`locationdataset` (`country` text, `year` int, `iso_code` text, `population` double): OK
+[14, 01:24:51] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`locationdataset` (`country`,`year`,`iso_code`,`population`) VALUES(?,?,?,?)': Executing 
+[14, 01:24:51] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`locationdataset` (`country`,`year`,`iso_code`,`population`) VALUES(?,?,?,?)': OK
+[15, 01:25:40] DEALLOCATE PREPARE stmt: Executing 
+[15, 01:25:40] DEALLOCATE PREPARE stmt: OK
+[16, 01:30:06] DROP TABLE `CS306SchemeForLog`.`locationdataset`: Running...
+[16, 01:30:06] DROP TABLE `CS306SchemeForLog`.`locationdataset`: 0 row(s) affected
+[17, 01:30:36] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[17, 01:30:36] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[18, 01:30:36] SHOW DATABASES: Executing 
+[18, 01:30:36] SHOW DATABASES: OK
+[19, 01:30:40] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[19, 01:30:40] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[20, 01:30:40] SHOW TABLES FROM `CS306SchemeForLog` like 'locationdatasetnew': Executing 
+[20, 01:30:40] SHOW TABLES FROM `CS306SchemeForLog` like 'locationdatasetnew': OK
+[21, 01:30:47] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[21, 01:30:47] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[22, 01:30:47] SHOW TABLES FROM `CS306SchemeForLog` like 'locationdatasetnew': Executing 
+[22, 01:30:47] SHOW TABLES FROM `CS306SchemeForLog` like 'locationdatasetnew': OK
+[23, 01:32:15] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[23, 01:32:15] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[24, 01:32:15] SHOW DATABASES: Executing 
+[24, 01:32:15] SHOW DATABASES: OK
+[25, 01:32:16] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[25, 01:32:16] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[26, 01:32:16] SHOW TABLES FROM `CS306SchemeForLog` like 'locationdatasetnew': Executing 
+[26, 01:32:16] SHOW TABLES FROM `CS306SchemeForLog` like 'locationdatasetnew': OK
+[27, 01:32:25]  CREATE TABLE `CS306SchemeForLog`.`locationdatasetnew` (`country` text, `year` int, `iso_code` text, `population` bigint): Executing 
+[27, 01:32:25]  CREATE TABLE `CS306SchemeForLog`.`locationdatasetnew` (`country` text, `year` int, `iso_code` text, `population` bigint): OK
+[28, 01:32:25] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`locationdatasetnew` (`country`,`year`,`iso_code`,`population`) VALUES(?,?,?,?)': Executing 
+[28, 01:32:25] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`locationdatasetnew` (`country`,`year`,`iso_code`,`population`) VALUES(?,?,?,?)': OK
+[29, 01:32:49] DEALLOCATE PREPARE stmt: Executing 
+[29, 01:32:49] DEALLOCATE PREPARE stmt: OK
+[30, 01:35:53] DROP TABLE `CS306SchemeForLog`.`locationdatasetnew`: Running...
+[30, 01:35:53] DROP TABLE `CS306SchemeForLog`.`locationdatasetnew`: 0 row(s) affected
+[1, 01:39:45] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[1, 01:39:45] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[2, 01:39:45] SHOW DATABASES: Executing 
+[2, 01:39:45] SHOW DATABASES: OK
+[3, 01:39:47] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[3, 01:39:47] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[4, 01:39:47] SHOW TABLES FROM `CS306SchemeForLog` like 'locationdatasetnew': Executing 
+[4, 01:39:47] SHOW TABLES FROM `CS306SchemeForLog` like 'locationdatasetnew': OK
+[5, 01:39:56]  CREATE TABLE `CS306SchemeForLog`.`locationdatasetnew` (`country` text, `year` int, `iso_code` text, `population` bigint): Executing 
+[5, 01:39:56]  CREATE TABLE `CS306SchemeForLog`.`locationdatasetnew` (`country` text, `year` int, `iso_code` text, `population` bigint): OK
+[6, 01:39:56] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`locationdatasetnew` (`country`,`year`,`iso_code`,`population`) VALUES(?,?,?,?)': Executing 
+[6, 01:39:56] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`locationdatasetnew` (`country`,`year`,`iso_code`,`population`) VALUES(?,?,?,?)': OK
+[7, 01:40:18] DEALLOCATE PREPARE stmt: Executing 
+[7, 01:40:18] DEALLOCATE PREPARE stmt: OK
+[8, 01:41:37] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[8, 01:41:37] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[9, 01:41:37] SHOW DATABASES: Executing 
+[9, 01:41:37] SHOW DATABASES: OK
+[10, 01:41:40] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[10, 01:41:40] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[11, 01:41:40] SHOW TABLES FROM `CS306SchemeForLog` like 'fossilfuelconsumptionfinal': Executing 
+[11, 01:41:40] SHOW TABLES FROM `CS306SchemeForLog` like 'fossilfuelconsumptionfinal': OK
+[12, 01:41:50]  CREATE TABLE `CS306SchemeForLog`.`fossilfuelconsumptionfinal` (`Entity` text, `Code` text, `Year` int, `Fossil fuels (TWh)` bigint): Executing 
+[12, 01:41:50]  CREATE TABLE `CS306SchemeForLog`.`fossilfuelconsumptionfinal` (`Entity` text, `Code` text, `Year` int, `Fossil fuels (TWh)` bigint): OK
+[13, 01:41:50] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`fossilfuelconsumptionfinal` (`Entity`,`Code`,`Year`,`Fossil fuels (TWh)`) VALUES(?,?,?,?)': Executing 
+[13, 01:41:50] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`fossilfuelconsumptionfinal` (`Entity`,`Code`,`Year`,`Fossil fuels (TWh)`) VALUES(?,?,?,?)': OK
+[14, 01:41:52] DEALLOCATE PREPARE stmt: Executing 
+[14, 01:41:52] DEALLOCATE PREPARE stmt: OK
+[15, 01:42:14] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[15, 01:42:14] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[16, 01:42:14] SHOW DATABASES: Executing 
+[16, 01:42:14] SHOW DATABASES: OK
+[17, 01:42:15] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[17, 01:42:15] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[18, 01:42:15] SHOW TABLES FROM `CS306SchemeForLog` like 'ozonecleaned': Executing 
+[18, 01:42:15] SHOW TABLES FROM `CS306SchemeForLog` like 'ozonecleaned': OK
+[19, 01:42:20]  CREATE TABLE `CS306SchemeForLog`.`ozonecleaned` (`Entity` text, `Code` text, `Year` int, `Ozone concentration-StateofGlobalAir` int): Executing 
+[19, 01:42:20]  CREATE TABLE `CS306SchemeForLog`.`ozonecleaned` (`Entity` text, `Code` text, `Year` int, `Ozone concentration-StateofGlobalAir` int): OK
+[20, 01:42:20] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`ozonecleaned` (`Entity`,`Code`,`Year`,`Ozone concentration-StateofGlobalAir`) VALUES(?,?,?,?)': Executing 
+[20, 01:42:20] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`ozonecleaned` (`Entity`,`Code`,`Year`,`Ozone concentration-StateofGlobalAir`) VALUES(?,?,?,?)': OK
+[21, 01:42:23] DEALLOCATE PREPARE stmt: Executing 
+[21, 01:42:23] DEALLOCATE PREPARE stmt: OK
+[22, 01:42:45] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[22, 01:42:45] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[23, 01:42:45] SHOW DATABASES: Executing 
+[23, 01:42:45] SHOW DATABASES: OK
+[24, 01:42:47] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[24, 01:42:47] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[25, 01:42:47] SHOW TABLES FROM `CS306SchemeForLog` like 'sharedeathsairpollution': Executing 
+[25, 01:42:47] SHOW TABLES FROM `CS306SchemeForLog` like 'sharedeathsairpollution': OK
+[26, 01:42:52]  CREATE TABLE `CS306SchemeForLog`.`sharedeathsairpollution` (`Entity` text, `Code` text, `Year` int, `Deaths  AirP(%)` double): Executing 
+[26, 01:42:52]  CREATE TABLE `CS306SchemeForLog`.`sharedeathsairpollution` (`Entity` text, `Code` text, `Year` int, `Deaths  AirP(%)` double): OK
+[27, 01:42:52] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`sharedeathsairpollution` (`Entity`,`Code`,`Year`,`Deaths  AirP(%)`) VALUES(?,?,?,?)': Executing 
+[27, 01:42:52] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`sharedeathsairpollution` (`Entity`,`Code`,`Year`,`Deaths  AirP(%)`) VALUES(?,?,?,?)': OK
+[28, 01:43:14] DEALLOCATE PREPARE stmt: Executing 
+[28, 01:43:14] DEALLOCATE PREPARE stmt: OK
+[29, 01:43:36] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[29, 01:43:36] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[30, 01:43:36] SHOW DATABASES: Executing 
+[30, 01:43:36] SHOW DATABASES: OK
+[31, 01:43:37] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[31, 01:43:37] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[32, 01:43:37] SHOW TABLES FROM `CS306SchemeForLog` like 'windcleaned': Executing 
+[32, 01:43:37] SHOW TABLES FROM `CS306SchemeForLog` like 'windcleaned': OK
+[33, 01:43:45]  CREATE TABLE `CS306SchemeForLog`.`windcleaned` (`Entity` text, `Code` text, `Year` int, `Wind per capita (kWh - equivalent)` double): Executing 
+[33, 01:43:45]  CREATE TABLE `CS306SchemeForLog`.`windcleaned` (`Entity` text, `Code` text, `Year` int, `Wind per capita (kWh - equivalent)` double): OK
+[34, 01:43:45] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`windcleaned` (`Entity`,`Code`,`Year`,`Wind per capita (kWh - equivalent)`) VALUES(?,?,?,?)': Executing 
+[34, 01:43:45] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`windcleaned` (`Entity`,`Code`,`Year`,`Wind per capita (kWh - equivalent)`) VALUES(?,?,?,?)': OK
+[35, 01:43:53] DEALLOCATE PREPARE stmt: Executing 
+[35, 01:43:53] DEALLOCATE PREPARE stmt: OK
+[36, 01:44:08] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[36, 01:44:08] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[37, 01:44:08] SHOW DATABASES: Executing 
+[37, 01:44:08] SHOW DATABASES: OK
+[38, 01:44:09] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[38, 01:44:09] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[39, 01:44:09] SHOW TABLES FROM `CS306SchemeForLog` like 'co2emission': Executing 
+[39, 01:44:09] SHOW TABLES FROM `CS306SchemeForLog` like 'co2emission': OK
+[40, 01:44:15]  CREATE TABLE `CS306SchemeForLog`.`co2emission` (`Entity` text, `Code` text, `Year` int, `Annual CO2 emissions` bigint): Executing 
+[40, 01:44:15]  CREATE TABLE `CS306SchemeForLog`.`co2emission` (`Entity` text, `Code` text, `Year` int, `Annual CO2 emissions` bigint): OK
+[41, 01:44:15] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`co2emission` (`Entity`,`Code`,`Year`,`Annual CO2 emissions`) VALUES(?,?,?,?)': Executing 
+[41, 01:44:15] PREPARE stmt FROM 'INSERT INTO `CS306SchemeForLog`.`co2emission` (`Entity`,`Code`,`Year`,`Annual CO2 emissions`) VALUES(?,?,?,?)': OK
+[42, 01:44:50] DEALLOCATE PREPARE stmt: Executing 
+[42, 01:44:50] DEALLOCATE PREPARE stmt: OK
+[43, 01:53:22] Apply changes to windcleaned: Applying object changes ...
+[43, 01:53:32] Apply changes to windcleaned: 
+[44, 01:53:57] Apply changes to locationdatasetnew: Applying object changes ...
+[44, 01:53:59] Applying changes to locationdatasetnew...: 
+[44, 01:54:25] Apply changes to locationdatasetnew: Error 1170: BLOB/TEXT column 'Code' used in key specification without a key length
+SQL Statement:
+ALTER TABLE `CS306SchemeForLog`.`locationdatasetnew` 
+CHANGE COLUMN `country` `Country` TEXT NULL DEFAULT NULL ,
+CHANGE COLUMN `year` `Year` INT NULL DEFAULT NULL ,
+CHANGE COLUMN `iso_code` `Code` TEXT NOT NULL ,
+CHANGE COLUMN `population` `Population` BIGINT NULL DEFAULT NULL ,
+ADD PRIMARY KEY (`Code`)
+
+
+[45, 01:54:29] Apply changes to locationdatasetnew: Applying object changes ...
+[45, 01:54:31] Applying changes to locationdatasetnew...: 
+[45, 01:54:31] : Changes applied to locationdatasetnew
+[45, 01:54:33] Apply changes to locationdatasetnew: Changes applied
+[46, 01:54:42] Apply changes to locationdatasetnew: Applying object changes ...
+[46, 01:54:46] Applying changes to locationdatasetnew...: 
+[46, 01:55:27] Apply changes to locationdatasetnew: Error 1170: BLOB/TEXT column 'Code' used in key specification without a key length
+SQL Statement:
+ALTER TABLE `CS306SchemeForLog`.`locationdatasetnew` 
+ADD PRIMARY KEY (`Code`)
+
+
+[47, 01:55:34] Apply changes to locationdatasetnew: Applying object changes ...
+[47, 01:55:40] Applying changes to locationdatasetnew...: 
+[47, 01:55:43] Apply changes to locationdatasetnew: Error 1170: BLOB/TEXT column 'Code' used in key specification without a key length
+SQL Statement:
+ALTER TABLE `CS306SchemeForLog`.`locationdatasetnew` 
+ADD PRIMARY KEY (`Code`)
+
+
+[48, 01:55:57] Apply changes to locationdatasetnew: Applying object changes ...
+[48, 01:56:00] Applying changes to locationdatasetnew...: 
+[48, 01:56:34] Apply changes to locationdatasetnew: Error 1062: Duplicate entry 'AFG' for key 'locationdatasetnew.PRIMARY'
+SQL Statement:
+ALTER TABLE `CS306SchemeForLog`.`locationdatasetnew` 
+CHANGE COLUMN `Code` `Code` VARCHAR(3) NOT NULL ,
+ADD PRIMARY KEY (`Code`)
+
+
+[49, 01:56:42] Apply changes to locationdatasetnew: Applying object changes ...
+[49, 01:56:45] Applying changes to locationdatasetnew...: 
+[49, 01:56:48] Apply changes to locationdatasetnew: Error 1062: Duplicate entry '1990' for key 'locationdatasetnew.Year_UNIQUE'
+SQL Statement:
+ALTER TABLE `CS306SchemeForLog`.`locationdatasetnew` 
+CHANGE COLUMN `Code` `Code` VARCHAR(3) NOT NULL ,
+ADD PRIMARY KEY (`Code`),
+ADD UNIQUE INDEX `Year_UNIQUE` (`Year` ASC) VISIBLE
+
+
+[50, 01:56:54] Apply changes to locationdatasetnew: Applying object changes ...
+[50, 01:56:57] Applying changes to locationdatasetnew...: 
+[50, 01:57:07] Apply changes to locationdatasetnew: Error 1062: Duplicate entry '1990' for key 'locationdatasetnew.Year_UNIQUE'
+SQL Statement:
+ALTER TABLE `CS306SchemeForLog`.`locationdatasetnew` 
+CHANGE COLUMN `Code` `Code` VARCHAR(3) NULL ,
+ADD UNIQUE INDEX `Year_UNIQUE` (`Year` ASC)
+
+
+[51, 01:57:14] Apply changes to locationdatasetnew: Applying object changes ...
+[51, 01:57:16] Applying changes to locationdatasetnew...: 
+[51, 01:57:18] Apply changes to locationdatasetnew: Error 1062: Duplicate entry 'AFG' for key 'locationdatasetnew.Code_UNIQUE'
+SQL Statement:
+ALTER TABLE `CS306SchemeForLog`.`locationdatasetnew` 
+CHANGE COLUMN `Code` `Code` VARCHAR(3) NULL ,
+ADD UNIQUE INDEX `Code_UNIQUE` (`Code` ASC)
+
+
+[52, 01:57:47] Apply changes to locationdatasetnew: Applying object changes ...
+[52, 01:57:49] Applying changes to locationdatasetnew...: 
+[52, 01:57:49] : Changes applied to locationdatasetnew
+[52, 01:57:51] Apply changes to locationdatasetnew: Changes applied
